@@ -1,0 +1,74 @@
+{
+    "categories": [{
+        "cid": 1,
+        "title": "写真",
+        "url": "http://www.znanmao.com/xiezhen/{pageStr:page/{page:2}}"
+    }, {
+        "cid": 2,
+        "title": "自拍",
+        "url": "http://www.znanmao.com/zipai/{pageStr:page/{page:2}}"
+    }, {
+        "cid": 3,
+        "title": "街拍",
+        "url": "http://www.znanmao.com/jiepai/{pageStr:page/{page:2}}"
+    }, {
+        "cid": 4,
+        "title": "福利姬",
+        "url": "http://www.znanmao.com/neihanfuli/fuliji/{pageStr:page/{page:2}}"
+    }, {
+        "cid": 5,
+        "title": "Cosplay",
+        "url": "http://www.znanmao.com/cosplay/{pageStr:page/{page:2}}"
+    }, {
+        "cid": 6,
+        "title": "内涵图",
+        "url": "http://www.znanmao.com/neihanfuli/neihantu/{pageStr:page/{page:2}}"
+    }],
+    "disableHProxy": false,
+    "flag": "noRating|preloadGallery|waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".entry-content-width img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "http://www.znanmao.com/{idCode:}.html{pageStr:/{page:2}}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "span.indexlistimg:eq(1) img:eq(0)"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "http://www.znanmao.com/(.*).html",
+            "selector": ".entry-title a"
+        },
+        "item": {
+            "selector": ".type-post"
+        },
+        "title": {
+            "fun": "html",
+            "selector": ".entry-title a"
+        }
+    },
+    "indexUrl": "http://www.znanmao.com",
+    "isGrid": true,
+    "sid": 2,
+    "title": "宅男猫",
+    "versionCode": 0
+}
