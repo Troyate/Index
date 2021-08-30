@@ -370,14 +370,14 @@
         "r18": false,
         "sites": [
             {
-                "sid": 401,
-                "title": "秀人",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E7%A7%80%E4%BA%BA.png",
-                "description": "专注模特写真及周边产业的互动平台",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E7%A7%80%E4%BA%BA.txt",
-                "versionCode": 3,
-                "lastUpdate": "2017-03-13 09:41:23",
+                "sid": 402,
+                "title": "宅男猫",
+                "author": "Timik",
+                "icon": "https://raw.githubusercontent.com/TminiK/Index/master/icons/%E5%AE%85%E7%94%B7%E7%8C%AB.ico",
+                "description": "性感美女写真，cosplay写真",
+                "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/%E5%AE%85%E7%94%B7%E7%8C%AB.txt",
+                "versionCode": 1,
+                "lastUpdate": "2021-08-31 09:11:46",
                 "r18": false
             },
             {
