@@ -44,61 +44,6 @@
         "r18": true,
         "sites": [
             {
-                "sid": 301,
-                "title": "Lofi.E-hentai",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Ehentai.png",
-                "description": "E绅士的移动版，优点是能在列表就读取到TAG，缺点是图片画质较低",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/lofi.e-hentai.txt",
-                "versionCode": 3,
-                "lastUpdate": "2017-04-06 14:21:15",
-                "r18": true
-            },
-            {
-                "sid": 302,
-                "title": "G.E-hentai",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Ehentai.png",
-                "description": "E绅士的桌面版，图片较清楚，登录可查看最新内容",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/g.e-hentai.txt",
-                "versionCode": 10,
-                "lastUpdate": "2021-06-20 01:49:00",
-                "r18": true
-            },
-            {
-                "sid": 303,
-                "title": "Ex-hentai",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Ehentai.png",
-                "description": "E绅士的里区，必须登录才能访问",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/exhentai.txt",
-                "versionCode": 12,
-                "lastUpdate": "2021-06-20 01:49:00",
-                "r18": true
-            },
-            {
-                "sid": 304,
-                "title": "绅士漫画",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/wnacg.png",
-                "description": "专注分享汉化本子",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/wnacg.txt",
-                "versionCode": 10,
-                "lastUpdate": "2021-06-20 01:49:00",
-                "r18": true
-            },
-            {
-                "sid": 305,
-                "title": "nhentai",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/nhentai.png",
-                "description": "本子站，最大的优点是没有被墙",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/nhentai.txt",
-                "versionCode": 8,
-                "lastUpdate": "2020-07-13 11:51:15",
-                "r18": true
-            },
-            {
                 "sid": 306,
                 "title": "177漫画",
                 "author": "PureDark",
@@ -106,61 +51,6 @@
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/177%E6%BC%AB%E7%94%BB.txt",
                 "versionCode": 7,
                 "lastUpdate": "2019-07-17 20:49:00",
-                "r18": true
-            },
-            {
-                "sid": 307,
-                "title": "エロ漫画同人誌",
-                "author": "sosmygirl",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E3%82%A8%E3%83%AD%E6%BC%AB%E7%94%BB%E5%90%8C%E4%BA%BA%E8%AA%8C.png",
-                "description": "一个专注同人本子的网站（炮姐，Rem应有尽有）",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E3%82%A8%E3%83%AD%E6%BC%AB%E7%94%BB%E5%90%8C%E4%BA%BA%E8%AA%8C.txt",
-                "versionCode": 3,
-                "lastUpdate": "2016-10-04 15:57:34",
-                "r18": true
-            },
-            {
-                "sid": 308,
-                "title": "H-Manga.moe",
-                "author": "sosmygirl",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/H-Manga.moe.png",
-                "description": "在线绅士同人志阅览，免费且每日更新。",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/H-Manga.moe.txt",
-                "versionCode": 4,
-                "lastUpdate": "2017-03-21 04:08:34",
-                "r18": true
-            },
-            {
-                "sid": 309,
-                "title": "萌春画",
-                "author": "sosmygirl",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E8%90%8C%E6%98%A5%E7%94%BB.png",
-                "description": "萌春画はえっちで萌えれるエロ同人誌、エロ漫画を載せています。現在フルカラー物のみで更新中！",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E8%90%8C%E6%98%A5%E7%94%BB.txt",
-                "versionCode": 3,
-                "lastUpdate": "2017-03-21 04:08:34",
-                "r18": true
-            },
-            {
-                "sid": 310,
-                "title": "Hentai.Cafe",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/default.png",
-                "description": "All the H(appiness)",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Hentai.Cafe.txt",
-                "versionCode": 3,
-                "lastUpdate": "2019-09-18 13:35:56",
-                "r18": true
-            },
-            {
-                "sid": 311,
-                "title": "松鼠症仓库",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/松鼠症仓库.png",
-                "description": "松鼠症倉庫 成人漫畫區,H漫畫,超過三萬本漫畫分享您閱讀及下載!",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/松鼠症仓库.txt",
-                "versionCode": 4,
-                "lastUpdate": "2020-03-04 04:28:00",
                 "r18": true
             }
         ]
@@ -180,61 +70,6 @@
                 "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/%E5%AE%85%E7%94%B7%E7%8C%AB.txt",
                 "versionCode": 1,
                 "lastUpdate": "2021-08-31 09:11:46",
-                "r18": false
-            },
-            {
-                "sid": 402,
-                "title": "Rosi",
-                "author": "vvyoko",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Rosi.png",
-                "description": "性感美女写真",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Rosi.txt",
-                "versionCode": 4,
-                "lastUpdate": "2017-03-21 04:08:16",
-                "r18": false
-            },
-            {
-                "sid": 403,
-                "title": "妹子图",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E5%A6%B9%E5%AD%90%E5%9B%BE.png",
-                "description": "每日分享最新最全最优质的妹子图片和高清性感美女图片",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E5%A6%B9%E5%AD%90%E5%9B%BE.txt",
-                "versionCode": 4,
-                "lastUpdate": "2016-09-30 03:46:15",
-                "r18": false
-            },
-            {
-                "sid": 404,
-                "title": "妹子图2",
-                "author": "sosmygirl",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E5%A6%B9%E5%AD%90%E5%9B%BE2.png",
-                "description": "无论是小清新,模特,还是其他妹子,我们每天都精挑细选,精彩的妹子图每天都有不一样的呈现",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E5%A6%B9%E5%AD%90%E5%9B%BE2.txt",
-                "versionCode": 3,
-                "lastUpdate": "2016-10-03 23:22:13",
-                "r18": false
-            },
-            {
-                "sid": 405,
-                "title": "美女图片集",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/美女图片集.png",
-                "description": "「美女图片集」是一个干净利落的美女图片分享社区。你会以绝佳的横向浏览方式欣赏媛馆、尤果网、推女郎等国模写真；杉原杏璃、筱崎爱、原干惠等日本女优的经典写真集怎能错过；还有欧美美女出境的黑白人体艺术摄影，脱而不露的致命诱惑。",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/美女图片集.txt",
-                "versionCode": 4,
-                "lastUpdate": "2016-10-16 04:13:53",
-                "r18": false
-            },
-            {
-                "sid": 406,
-                "title": "Nude-Atlas",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Nude-Atlas.png",
-                "description": "国外的裸体写真站，各国的都有",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Nude-Atlas.txt",
-                "versionCode": 5,
-                "lastUpdate": "2016-10-16 04:45:53",
                 "r18": false
             },
             {
