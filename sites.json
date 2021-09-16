@@ -1,63 +1,7 @@
 ﻿[
     {
         "cid": 1,
-        "title": "ACG图站",
-        "english": "ACG picture sites",
-        "r18": false,
-        "sites": [
-            {
-                "sid": 106,
-                "title": "半次元",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/半次元.png",
-                "description": "第一中文COS绘画小说社区，需要登录才能搜索，部分内容需要登录才能浏览",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/半次元.txt",
-                "versionCode": 5,
-                "lastUpdate": "2017-03-21 04:08:42",
-                "r18": false
-            }
-        ]
-    },
-    {
-        "cid": 2,
-        "title": "Booru图站",
-        "english": "Booru sites",
-        "r18": false,
-        "sites": [
-            {
-                "sid": 201,
-                "title": "Yande.re Post",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Yande.re.png",
-                "description": "主收高清图，大分辨率扫描图",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Yande.re.Post.txt",
-                "versionCode": 6,
-                "lastUpdate": "2017-03-13 16:36:52",
-                "r18": false
-            }
-        ]
-    },
-    {
-        "cid": 3,
-        "title": "绅士漫画站",
-        "english": "Hentai manga sites",
-        "r18": true,
-        "sites": [
-            {
-                "sid": 306,
-                "title": "177漫画",
-                "author": "PureDark",
-                "description": "收录的漫画以汉化单行本为主",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/177%E6%BC%AB%E7%94%BB.txt",
-                "versionCode": 7,
-                "lastUpdate": "2019-07-17 20:49:00",
-                "r18": true
-            }
-        ]
-    },
-    {
-        "cid": 4,
-        "title": "写真图站",
+        "title": "写真",
         "english": "Nude Photography Sites",
         "r18": false,
         "sites": [
@@ -86,8 +30,64 @@
         ]
     },
     {
+        "cid": 2,
+        "title": "ACG",
+        "english": "ACG picture sites",
+        "r18": false,
+        "sites": [
+            {
+                "sid": 106,
+                "title": "半次元",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/半次元.png",
+                "description": "第一中文COS绘画小说社区，需要登录才能搜索，部分内容需要登录才能浏览",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/半次元.txt",
+                "versionCode": 5,
+                "lastUpdate": "2017-03-21 04:08:42",
+                "r18": false
+            }
+        ]
+    },
+    {
+        "cid": 3,
+        "title": "Booru",
+        "english": "Booru sites",
+        "r18": false,
+        "sites": [
+            {
+                "sid": 201,
+                "title": "Yande.re Post",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Yande.re.png",
+                "description": "主收高清图，大分辨率扫描图",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Yande.re.Post.txt",
+                "versionCode": 6,
+                "lastUpdate": "2017-03-13 16:36:52",
+                "r18": false
+            }
+        ]
+    },
+    {
+        "cid": 4,
+        "title": "漫画",
+        "english": "Hentai manga sites",
+        "r18": true,
+        "sites": [
+            {
+                "sid": 306,
+                "title": "177漫画",
+                "author": "PureDark",
+                "description": "收录的漫画以汉化单行本为主",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/177%E6%BC%AB%E7%94%BB.txt",
+                "versionCode": 7,
+                "lastUpdate": "2019-07-17 20:49:00",
+                "r18": true
+            }
+        ]
+    },
+    {
         "cid": 5,
-        "title": "真人图站",
+        "title": "真人",
         "english": "Reality Sites",
         "r18": true,
         "sites": [
@@ -105,8 +105,8 @@
         ]
     },
     {
-        "cid": 5,
-        "title": "素材图站",
+        "cid": 6,
+        "title": "素材",
         "english": "Resource Sites",
         "r18": false,
         "sites": [
