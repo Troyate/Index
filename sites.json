@@ -1,76 +1,10 @@
 ﻿[
     {
         "cid": 1,
-        "title": "ACG图站-爬虫集",
+        "title": "ACG图站",
         "english": "ACG picture sites",
         "r18": false,
         "sites": [
-            {
-                "sid": 101,
-                "title": "E-shuushuu",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/E-shuushuu.png",
-                "description": "收录图片较多且杂，但质量都不错",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/E-shuushuu.txt",
-                "versionCode": 3,
-                "lastUpdate": "2016-09-27 01:36:05",
-                "r18": false
-            },
-            {
-                "sid": 102,
-                "title": "Pixiv",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Pixiv.png",
-                "description": "著名同人画、插画作品分享站点，需要登陆才能访问",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Pixiv.txt",
-                "versionCode": 10,
-                "lastUpdate": "2017-04-02 00:41:15",
-                "r18": false
-            },
-            {
-                "sid": 103,
-                "title": "Bilibili 画友",
-                "author": "manhong2112",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Bilibili%E7%94%BB%E5%8F%8B.png",
-                "description": "一个简单的原创画画交流中心",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Bilibili%E7%94%BB%E5%8F%8B.txt",
-                "versionCode": 8,
-                "lastUpdate": "2016-09-28 18:51:05",
-                "r18": false
-            },
-            {
-                "sid": 104,
-                "title": "二次萌エロ画像ブログ",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E4%BA%8C%E6%AC%A1%E8%90%8C%E3%82%A8%E3%83%AD%E7%94%BB%E5%83%8F%E3%83%96%E3%83%AD%E3%82%B0.png",
-                "description": "エロ画像，你懂的",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E4%BA%8C%E6%AC%A1%E8%90%8C%E3%82%A8%E3%83%AD%E7%94%BB%E5%83%8F%E3%83%96%E3%83%AD%E3%82%B0.txt",
-                "versionCode": 5,
-                "lastUpdate": "2019-07-17 16:47:12",
-                "r18": true
-            },
-            {
-                "sid": 105,
-                "title": "二次元のエッチな画像",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E4%BA%8C%E6%AC%A1%E5%85%83%E3%81%AE%E3%82%A8%E3%83%83%E3%83%81%E3%81%AA%E7%94%BB%E5%83%8F.png",
-                "description": "也是各种エロ画像",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E4%BA%8C%E6%AC%A1%E5%85%83%E3%81%AE%E3%82%A8%E3%83%83%E3%83%81%E3%81%AA%E7%94%BB%E5%83%8F.txt",
-                "versionCode": 2,
-                "lastUpdate": "2019-07-17 01:36:05",
-                "r18": true
-            },
-            {
-                "sid": 105,
-                "title": "绝对领域",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E7%BB%9D%E5%AF%B9%E9%A2%86%E5%9F%9F.png",
-                "description": "一个2.5次元图片分享平台",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E7%BB%9D%E5%AF%B9%E9%A2%86%E5%9F%9F.txt",
-                "versionCode": 4,
-                "lastUpdate": "2017-03-07 02:09:31",
-                "r18": false
-            },
             {
                 "sid": 106,
                 "title": "半次元",
@@ -80,17 +14,6 @@
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/半次元.txt",
                 "versionCode": 5,
                 "lastUpdate": "2017-03-21 04:08:42",
-                "r18": false
-            },
-            {
-                "sid": 107,
-                "title": "零域动漫壁纸",
-                "author": "cuzfinal",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/零域动漫壁纸.png",
-                "description": "提供好看的日本动漫卡通桌面壁纸下载，1920x1080、1920x1200、2560x1600等超高清壁纸下载，二次元可爱唯美动漫壁纸大全。更多卡通动画图片尽在零域动漫壁纸网站。",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/零域动漫壁纸.txt",
-                "versionCode": 2,
-                "lastUpdate": "2017-02-17 15:09:45",
                 "r18": false
             }
         ]
