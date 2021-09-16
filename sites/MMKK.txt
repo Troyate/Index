@@ -1,1 +1,94 @@
-{"categories":[{"cid":1,"title":"首页","url":"https://www.mmkk.me/page/{page:1}"},{"cid":2,"title":"性感","url":"https://www.mmkk.me/category/xinggan/{page:1}"},{"cid":3,"title":"清纯","url":"https://www.mmkk.me/category/qingchun/{page:1}"},{"cid":4,"title":"校花","url":"https://www.mmkk.me/category/xiaohua/{page:1}"},{"cid":5,"title":"唯美","url":"https://www.mmkk.me/category/weimei/{page:1}"},{"cid":6,"title":"cosplay","url":"https://www.mmkk.me/category/cosplay/{page:1}"},{"cid":7,"title":"腿控","url":"https://www.mmkk.me/category/meitui/{page:1}"},{"cid":8,"title":"明星","url":"https://www.mmkk.me/category/mingxing/{page:1}"},{"cid":9,"title":"旗袍","url":"https://www.mmkk.me/category/qipao/{page:1}"},{"cid":10,"title":"车模","url":"https://www.mmkk.me/category/chemo/{page:1}"}],"disableHProxy":false,"flag":"waterfallAsGrid|waterfallAsList","galleryRule":{"pictureRule":{"item":{"selector":".post-item-img"},"thumbnail":{"fun":"attr","param":"data-original","selector":"img"},"url":{"fun":"attr","param":"data-original","selector":"this"}}},"galleryUrl":"{idCode:}","gid":1,"index":0,"indexRule":{"category":{"fun":"text","selector":".item-num"},"cover":{"fun":"attr","param":"data-original","selector":".item-img"},"idCode":{"fun":"attr","param":"href","selector":".item-link"},"item":{"selector":".item"},"title":{"fun":"text","selector":".item-link"}},"indexUrl":"https://www.mmkk.me","isGrid":false,"searchUrl":"https://www.mmkk.me/search/{keyword:}/{page:1}/","sid":18,"title":"MMKK-爬虫鸡","versionCode":0}
+{
+    "categories": [{
+        "cid": 1,
+        "title": "首页",
+        "url": "https://www.mmkk.me/page/{page:1}"
+    }, {
+        "cid": 2,
+        "title": "性感",
+        "url": "https://www.mmkk.me/category/xinggan/{page:1}"
+    }, {
+        "cid": 3,
+        "title": "清纯",
+        "url": "https://www.mmkk.me/category/qingchun/{page:1}"
+    }, {
+        "cid": 4,
+        "title": "校花",
+        "url": "https://www.mmkk.me/category/xiaohua/{page:1}"
+    }, {
+        "cid": 5,
+        "title": "唯美",
+        "url": "https://www.mmkk.me/category/weimei/{page:1}"
+    }, {
+        "cid": 6,
+        "title": "cosplay",
+        "url": "https://www.mmkk.me/category/cosplay/{page:1}"
+    }, {
+        "cid": 7,
+        "title": "腿控",
+        "url": "https://www.mmkk.me/category/meitui/{page:1}"
+    }, {
+        "cid": 8,
+        "title": "明星",
+        "url": "https://www.mmkk.me/category/mingxing/{page:1}"
+    }, {
+        "cid": 9,
+        "title": "旗袍",
+        "url": "https://www.mmkk.me/category/qipao/{page:1}"
+    }, {
+        "cid": 10,
+        "title": "车模",
+        "url": "https://www.mmkk.me/category/chemo/{page:1}"
+    }],
+    "disableHProxy": false,
+    "flag": "waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".post-item-img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "data-original",
+                "selector": "img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "data-original",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "category": {
+            "fun": "text",
+            "selector": ".item-num"
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "data-original",
+            "selector": ".item-img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".item-link"
+        },
+        "item": {
+            "selector": ".item"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".item-link"
+        }
+    },
+    "indexUrl": "https://www.mmkk.me",
+    "isGrid": false,
+    "searchUrl": "https://www.mmkk.me/search/{keyword:}/{page:1}/",
+    "sid": 18,
+    "title": "MMKK-爬虫鸡",
+    "versionCode": 0
+}
