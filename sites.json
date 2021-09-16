@@ -39,7 +39,7 @@
                 "r18": false
             },
             {
-                "sid": 3,
+                "sid": 4,
                 "title": "LoveCos",
                 "author": "Timik",
                 "icon": "",
@@ -50,12 +50,23 @@
                 "r18": false
             },
             {
-                "sid": 4,
+                "sid": 5,
                 "title": "shanliang",
                 "author": "Timik",
                 "icon": "",
                 "description": "",
                 "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/shanliang.txt",
+                "versionCode": 0,
+                "lastUpdate": "2020-11-16 05:10:26",
+                "r18": false
+            },
+            {
+                "sid": 6,
+                "title": "爱死美女",
+                "author": "Timik",
+                "icon": "",
+                "description": "",
+                "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/爱死美女.txt",
                 "versionCode": 0,
                 "lastUpdate": "2020-11-16 05:10:26",
                 "r18": false
