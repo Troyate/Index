@@ -28,7 +28,7 @@
                 "r18": false
             },
             {
-                "sid": 2,
+                "sid": 3,
                 "title": "MMKK",
                 "author": "Timik",
                 "icon": "",
@@ -36,6 +36,17 @@
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/MMKK.txt",
                 "versionCode": 0,
                 "lastUpdate": "2020-10-16 05:10:26",
+                "r18": false
+            },
+            {
+                "sid": 3,
+                "title": "LoveCos",
+                "author": "Timik",
+                "icon": "",
+                "description": "",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Lovecos.txt",
+                "versionCode": 0,
+                "lastUpdate": "2020-11-16 05:10:26",
                 "r18": false
             }
         ]
