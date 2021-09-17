@@ -92,6 +92,17 @@
                 "versionCode": 0,
                 "lastUpdate": "2020-11-16 05:10:26",
                 "r18": false
+            },
+            {
+                "sid": 9,
+                "title": "摸鱼图库",
+                "author": "Timik",
+                "icon": "",
+                "description": "",
+                "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/摸鱼图库.txt",
+                "versionCode": 0,
+                "lastUpdate": "2020-11-16 05:10:26",
+                "r18": false
             }
             
         ]
