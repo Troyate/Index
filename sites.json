@@ -2,7 +2,7 @@
     {
         "cid": 1,
         "title": "写真",
-        "english": "Nude Photography Sites",
+        "english": "",
         "r18": false,
         "sites": [
             {
@@ -10,7 +10,7 @@
                 "title": "宅男猫",
                 "author": "Timik",
                 "icon": "",
-                "description": "性感美女写真，cosplay写真",
+                "description": "",
                 "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/宅男猫.txt",
                 "versionCode": 0,
                 "lastUpdate": "2021-08-31 09:11:46",
@@ -21,7 +21,7 @@
                 "title": "宅男女神",
                 "author": "PureDark",
                 "icon": "",
-                "description": "分享最全的宅男女神资料,最高清的美女图片,推女神,美媛馆等精品美女套图,最新的美女博客私房照,绝对不容错过！看美女就像喝水,每天都是必须的！",
+                "description": "",
                 "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/宅男女神.txt",
                 "versionCode": 0,
                 "lastUpdate": "2016-10-16 05:10:26",
