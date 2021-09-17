@@ -103,23 +103,34 @@
                 "versionCode": 0,
                 "lastUpdate": "2020-11-16 05:10:26",
                 "r18": false
+            },
+            {
+                "sid": 10,
+                "title": "百合花之王",
+                "author": "Timik",
+                "icon": "",
+                "description": "",
+                "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/百合花之王.txt",
+                "versionCode": 0,
+                "lastUpdate": "2020-11-16 05:10:26",
+                "r18": false
             }
             
         ]
     },
     {
         "cid": 2,
-        "title": "ACG",
-        "english": "ACG picture sites",
+        "title": "壁纸",
+        "english": "电脑手机壁纸",
         "r18": false,
         "sites": [
             {
-                "sid": 106,
-                "title": "半次元",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/半次元.png",
-                "description": "第一中文COS绘画小说社区，需要登录才能搜索，部分内容需要登录才能浏览",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/半次元.txt",
+                "sid": 1,
+                "title": "wallhaven",
+                "author": "Timik",
+                "icon": "",
+                "description": "",
+                "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/wallhaven.txt",
                 "versionCode": 5,
                 "lastUpdate": "2017-03-21 04:08:42",
                 "r18": false
@@ -130,7 +141,7 @@
         "cid": 3,
         "title": "Booru",
         "english": "Booru sites",
-        "r18": false,
+        "r18": true,
         "sites": [
             {
                 "sid": 201,
