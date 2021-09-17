@@ -205,17 +205,17 @@
     },
     {
         "cid": 6,
-        "title": "素材",
+        "title": "头像",
         "english": "Resource Sites",
         "r18": false,
         "sites": [
             {
                 "sid": 502,
-                "title": "UI中国",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/UI%E4%B8%AD%E5%9B%BD.png",
-                "description": "专业界面交互设计平台",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/UI%E4%B8%AD%E5%9B%BD.txt",
+                "title": "我要个性",
+                "author": "胖大叔",
+                "icon": "",
+                "description": "",
+                "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/我要个性.txt",
                 "versionCode": 4,
                 "lastUpdate": "2016-10-20 06:15:15",
                 "r18": false
