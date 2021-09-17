@@ -76,8 +76,19 @@
                 "title": "不羞涩",
                 "author": "Timik",
                 "icon": "",
-                "description": "",
+                "description": "微博美女",
                 "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/不羞涩.txt",
+                "versionCode": 0,
+                "lastUpdate": "2020-11-16 05:10:26",
+                "r18": false
+            },
+            {
+                "sid": 8,
+                "title": "爱看买家秀",
+                "author": "Timik",
+                "icon": "",
+                "description": "",
+                "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/爱看买家秀.txt",
                 "versionCode": 0,
                 "lastUpdate": "2020-11-16 05:10:26",
                 "r18": false
