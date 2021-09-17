@@ -39,17 +39,6 @@
                 "r18": false
             },
             {
-                "sid": 4,
-                "title": "LoveCos",
-                "author": "Timik",
-                "icon": "",
-                "description": "",
-                "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/Lovecos.txt",
-                "versionCode": 0,
-                "lastUpdate": "2020-11-16 05:10:26",
-                "r18": false
-            },
-            {
                 "sid": 5,
                 "title": "shanliang",
                 "author": "Timik",
@@ -160,21 +149,21 @@
     },
     {
         "cid": 3,
-        "title": "Booru",
-        "english": "Booru sites",
-        "r18": true,
-        "sites": [
+        "title": "二次元",
+        "english": "",
+        "r18": false,
+        "sites": [           
             {
-                "sid": 201,
-                "title": "Yande.re Post",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Yande.re.png",
-                "description": "主收高清图，大分辨率扫描图",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Yande.re.Post.txt",
-                "versionCode": 6,
-                "lastUpdate": "2017-03-13 16:36:52",
+                "sid": 1,
+                "title": "LoveCos",
+                "author": "Timik",
+                "icon": "",
+                "description": "",
+                "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/Lovecos.txt",
+                "versionCode": 0,
+                "lastUpdate": "2020-11-16 05:10:26",
                 "r18": false
-            }
+            },
         ]
     },
     {
