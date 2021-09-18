@@ -1,17 +1,4 @@
 {
-    "categories": [{
-        "cid": 1,
-        "title": "高清美女",
-        "url": "https://m.24tupian.org/meinv_{page:1}.html"
-    }, {
-        "cid": 2,
-        "title": "日本美女",
-        "url": "https://m.24tupian.org/nvyou_{page:1}.html"
-    }, {
-        "cid": 3,
-        "title": "丝袜美腿",
-        "url": "https://m.24tupian.org/tuimo_{page:1}.html"
-    }],
     "disableHProxy": false,
     "extraRule": {
         "pictureRule": {
@@ -22,7 +9,7 @@
             }
         }
     },
-    "flag": "singlePageBigPicture|noRating|noTag|waterfallAsList|waterfallAsGrid",
+    "flag": "noRating|noTag|waterfallAsList|waterfallAsGrid",
     "galleryRule": {
         "pictureRule": {
             "item": {
