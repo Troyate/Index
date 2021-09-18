@@ -1,0 +1,76 @@
+{
+    "categories": [
+        {
+        "cid": 2,
+        "title": "性感",
+        "url": "https://www.mm131.net/xinggan/{pageStr:list_6_{page:1}.html}"
+    }, {
+        "cid": 3,
+        "title": "清纯",
+        "url": "https://www.mm131.net/qingchun/{pageStr:list_1_{page:1}.html}"
+    }, {
+        "cid": 4,
+        "title": "校花",
+        "url": "https://www.mm131.net/xiaohua/{pageStr:list_2_{page:1}.html}"
+    }, {
+        "cid": 5,
+        "title": "车模",
+        "url": "https://www.mm131.net/chemo/{pageStr:list_3_{page:1}.html}"
+    }, {
+        "cid": 6,
+        "title": "旗袍",
+        "url": "https://www.mm131.net/qipao/{pageStr:list_4_{page:1}.html}"
+    }, {
+        "cid": 7,
+        "title": "明星",
+        "url": "https://www.mm131.net/mingxing/{pageStr:list_5_{page:1}.html}"
+    }],
+    "disableHProxy": false,
+    "flag": "waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".content-pic img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}{pageStr:_{page:1}}.html",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "(.*).html",
+            "selector": "a"
+        },
+        "item": {
+            "selector": ".list-left dd"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "a"
+        }
+    },
+    "indexUrl": "https://www.mm131.net",
+    "isGrid": false,
+    "searchUrl": "",
+    "sid": 18,
+    "title": "MM131",
+    "versionCode": 0
+}
