@@ -114,6 +114,17 @@
                 "versionCode": 0,
                 "lastUpdate": "2020-11-16 05:10:26",
                 "r18": false
+            },
+            {
+                "sid": 11,
+                "title": "爱美女",
+                "author": "Timik",
+                "icon": "",
+                "description": "",
+                "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/爱美女.txt",
+                "versionCode": 0,
+                "lastUpdate": "2020-11-16 05:10:26",
+                "r18": false
             }
             
         ]

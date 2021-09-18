@@ -1,0 +1,77 @@
+{
+    "categories": [{
+        "cid": 1,
+        "title": "高清美女",
+        "url": "https://m.24tupian.org/meinv_{page:1}.html"
+    }, {
+        "cid": 2,
+        "title": "日本美女",
+        "url": "https://m.24tupian.org/nvyou_{page:1}.html"
+    }, {
+        "cid": 3,
+        "title": "丝袜美腿",
+        "url": "https://m.24tupian.org/tuimo_{page:1}.html"
+    }],
+    "disableHProxy": false,
+    "extraRule": {
+        "pictureRule": {
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "#bimgs"
+            }
+        }
+    },
+    "flag": "singlePageBigPicture|noRating|noTag|waterfallAsList|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".pp.hh img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}{pageStr:-{page:1}}.html",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "(.*).html",
+            "selector": ".dl-name a"
+        },
+        "item": {
+            "selector": ".detail-list li"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".dl-name a"
+        },
+        "datetime": {
+                "fun": "text",
+                "selector": ".dl-name span:eq(1)"
+            }
+    },
+    "indexUrl": "https://www.2meinv.com",
+    "isGrid": false,
+    "loginUrl": "https://www.2meinv.com/index{pageStr:-{page:1}}.html",
+    "searchUrl": "https://www.2meinv.com/search-{keyword:}{pageStr:-{page:1}}.html",
+    "sid": 6,
+    "title": "爱美女",
+    "versionCode": 0
+}
