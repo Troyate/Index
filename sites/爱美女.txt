@@ -54,9 +54,9 @@
                 "selector": ".dl-name span:eq(1)"
             }
     },
-    "indexUrl": "https://www.2meinv.com",
+    "indexUrl": "https://www.2meinv.com/index{pageStr:-{page:1}}.html",
     "isGrid": false,
-    "loginUrl": "https://www.2meinv.com/index{pageStr:-{page:1}}.html",
+    "loginUrl": "",
     "searchUrl": "https://www.2meinv.com/search-{keyword:}{pageStr:-{page:1}}.html",
     "sid": 6,
     "title": "爱美女",
