@@ -155,6 +155,16 @@
                 "versionCode": 1,
                 "lastUpdate": "2017-03-21 04:08:42",
                 "r18": false
+            },{
+                "sid": 2,
+                "title": "堆糖网",
+                "author": "zhihaofans",
+                "icon": "",
+                "description": "",
+                "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/堆糖网.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-21 04:08:42",
+                "r18": false
             }
         ]
     },
@@ -180,7 +190,7 @@
     {
         "cid": 4,
         "title": "漫画",
-        "english": "Hentai manga sites",
+        "english": "",
         "r18": true,
         "sites": [
             {
@@ -198,7 +208,7 @@
     {
         "cid": 5,
         "title": "真人",
-        "english": "Reality Sites",
+        "english": "",
         "r18": true,
         "sites": [
             {
@@ -217,7 +227,7 @@
     {
         "cid": 6,
         "title": "头像",
-        "english": "Resource Sites",
+        "english": "",
         "r18": false,
         "sites": [
             {
