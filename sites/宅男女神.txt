@@ -49,7 +49,7 @@
                 }
             }
         },
-        "galleryUrl": "http://www.zngirls.com/g/{idCode:}/{page:1}.html",
+        "galleryUrl": "https://www.fnvshen.com/g/{idCode:}/{page:1}.html",
         "gid": 0,
         "index": 0,
         "indexRule": {
@@ -72,9 +72,9 @@
                 "selector": "div.galleryli_title>a,div.igalleryli_title>a"
             }
         },
-        "indexUrl": "http://www.zngirls.com/gallery/{pageStr:{page:1}.html}",
+        "indexUrl": "https://www.fnvshen.com/gallery/{pageStr:{page:1}.html}",
         "isGrid": false,
         "sid": 65,
         "title": "宅男女神",
-        "versionCode": 0
+        "versionCode": 2
     }
