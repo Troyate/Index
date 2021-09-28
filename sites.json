@@ -158,6 +158,17 @@
                 "versionCode": 1,
                 "lastUpdate": "2020-11-16 05:10:26",
                 "r18": false
+            },
+            {
+                "sid": 15,
+                "title": "牛图114",
+                "author": "Tminik",
+                "icon": "",
+                "description": "",
+                "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/牛图114.txt",
+                "versionCode": 1,
+                "lastUpdate": "2020-11-16 05:10:26",
+                "r18": false
             }
             
         ]
