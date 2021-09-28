@@ -80,5 +80,5 @@
         "searchUrl": "",
         "sid": 1,
         "title": "宅男女神",
-        "versionCode": 2
+        "versionCode": 3
       }
