@@ -8,7 +8,7 @@
             {
                 "sid": 1,
                 "title": "宅男猫",
-                "author": "Timik",
+                "author": "Tminik",
                 "icon": "",
                 "description": "",
                 "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/宅男猫.txt",
@@ -30,7 +30,7 @@
             {
                 "sid": 3,
                 "title": "MMKK",
-                "author": "Timik",
+                "author": "Tminik",
                 "icon": "",
                 "description": "",
                 "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/MMKK.txt",
@@ -41,7 +41,7 @@
             {
                 "sid": 5,
                 "title": "shanliang",
-                "author": "Timik",
+                "author": "Tminik",
                 "icon": "",
                 "description": "",
                 "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/shanliang.txt",
@@ -52,7 +52,7 @@
             {
                 "sid": 6,
                 "title": "爱死美女",
-                "author": "Timik",
+                "author": "Tminik",
                 "icon": "",
                 "description": "",
                 "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/爱死美女.txt",
@@ -63,9 +63,9 @@
             {
                 "sid": 7,
                 "title": "不羞涩",
-                "author": "Timik",
+                "author": "Tminik",
                 "icon": "",
-                "description": "微博美女",
+                "description": "",
                 "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/不羞涩.txt",
                 "versionCode": 0,
                 "lastUpdate": "2020-11-16 05:10:26",
@@ -74,7 +74,7 @@
             {
                 "sid": 8,
                 "title": "爱看买家秀",
-                "author": "Timik",
+                "author": "Tminik",
                 "icon": "",
                 "description": "",
                 "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/爱看买家秀.txt",
@@ -85,7 +85,7 @@
             {
                 "sid": 9,
                 "title": "摸鱼图库",
-                "author": "Timik",
+                "author": "Tminik",
                 "icon": "",
                 "description": "",
                 "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/摸鱼图库.txt",
@@ -96,7 +96,7 @@
             {
                 "sid": 10,
                 "title": "百合花之王",
-                "author": "Timik",
+                "author": "Tminik",
                 "icon": "",
                 "description": "",
                 "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/百合花之王.txt",
@@ -107,7 +107,7 @@
             {
                 "sid": 11,
                 "title": "秀美图",
-                "author": "Timik",
+                "author": "Tminik",
                 "icon": "",
                 "description": "",
                 "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/秀美图.txt",
@@ -118,7 +118,7 @@
             {
                 "sid": 12,
                 "title": "爱美女",
-                "author": "Timik",
+                "author": "Tminik",
                 "icon": "",
                 "description": "",
                 "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/爱美女.txt",
@@ -129,7 +129,7 @@
             {
                 "sid": 12,
                 "title": "MM131",
-                "author": "Timik",
+                "author": "Tminik",
                 "icon": "",
                 "description": "",
                 "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/MM131.txt",
@@ -140,7 +140,7 @@
             {
                 "sid": 13,
                 "title": "阿七美图",
-                "author": "Timik",
+                "author": "Tminik",
                 "icon": "",
                 "description": "",
                 "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/阿七美图馆.txt",
@@ -160,7 +160,7 @@
             {
                 "sid": 1,
                 "title": "wallhaven",
-                "author": "Timik",
+                "author": "Tminik",
                 "icon": "",
                 "description": "",
                 "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/wallhaven.txt",
@@ -170,7 +170,7 @@
             },{
                 "sid": 2,
                 "title": "必应每日一图",
-                "author": "Timik",
+                "author": "PureDark",
                 "icon": "",
                 "description": "",
                 "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/必应每日一图.txt",
@@ -199,7 +199,7 @@
             {
                 "sid": 1,
                 "title": "LoveCos",
-                "author": "Timik",
+                "author": "Tminik",
                 "icon": "",
                 "description": "",
                 "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/Lovecos.txt",
