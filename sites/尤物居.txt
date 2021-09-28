@@ -1,0 +1,69 @@
+{
+    "categories": [{
+        "cid": 1,
+        "title": "性感美女",
+        "url": "https://www.youwuju.com/mntp/xgmn{pageStr:/page/{page:1}}"
+    }, {
+        "cid": 2,
+        "title": "清纯美女",
+        "url": "https://www.youwuju.com/mntp/qcmn{pageStr:/page/{page:1}}"
+    }, {
+        "cid": 3,
+        "title": "写真系列",
+        "url": "https://www.youwuju.com/xzxl{pageStr:/page/{page:1}}"
+    }, {
+        "cid": 4,
+        "title": "网红套图",
+        "url": "https://www.youwuju.com/xzxl/whtt{pageStr:/page/{page:1}}"
+    }, {
+        "cid": 5,
+        "title": "更多写真",
+        "url": "https://www.youwuju.com/gdxz{pageStr:/page/{page:1}}"
+    }],
+    "disableHProxy": false,
+    "flag": "noTag|noCover|noRating|preloadGallery|waterfallAsList|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".entry-content img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 1,
+    "index": 60,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "data-src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".entry-title a"
+        },
+        "item": {
+            "selector": "article"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".entry-title a"
+        }
+    },
+    "indexUrl": "https://www.youwuju.com",
+    "isGrid": true,
+    "sid": 32,
+    "title": "尤物居",
+    "versionCode": 0
+}
