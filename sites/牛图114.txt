@@ -1,0 +1,89 @@
+﻿    {
+        "categories": [
+            {
+                "cid": 1,
+                "title": "性感图片",
+                "url": "http://www.niutu114.com/meinv/xinggan/index{page:1}.html"
+            },
+            {
+                "cid": 2,
+                "title": "清纯美女",
+                "url": "http://www.niutu114.com/meinv/qingchun/index{page:1}.html"
+            },
+            {
+                "cid": 3,
+                "title": "丝袜美腿",
+                "url": "http://www.niutu114.com/meinv/siwa/index{page:1}.html"
+            },
+            {
+                "cid": 3,
+                "title": "足球宝贝",
+                "url": "http://www.niutu114.com/meinv/zuqiubaobei/index{page:1}.html"
+            }
+        ],
+        "cookie": "",
+        "flag": "noRating|preloadGallery",
+        "galleryRule": {
+            "pictureRule": {
+                "item": {
+                    "selector": ".work-content img"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "this"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "this"
+                }
+            },
+            "tagRule": {
+                "item": {
+                    "selector": ".con-tag"
+                },
+                "title": {
+                    "fun": "html",
+                    "selector": "a"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "href",
+                    "regex": "(.*)",
+                    "replacement": "$1?page={page:1}",
+                    "selector": "a"
+                }
+            }
+        },
+        "galleryUrl": "{idCode:}{pageStr:_{page:1}}.html",
+        "gid": 0,
+        "index": 0,
+        "indexRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "(.*).html",
+                "selector": ".title-info a"
+            },
+            "item": {
+                "selector": "div.cover-info"
+            },
+            "title": {
+                "fun": "text",
+                "selector": ".title-info a"
+            }
+        },
+        "indexUrl": "http://www.niutu114.com",
+        "isGrid": false,
+        "loginUrl": "",
+        "searchUrl": "",
+        "sid": 63,
+        "title": "牛图114",
+        "versionCode": 0
+    }
