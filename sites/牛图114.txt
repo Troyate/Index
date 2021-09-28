@@ -16,7 +16,7 @@
                 "url": "http://www.niutu114.com/meinv/siwa/index{page:1}.html"
             },
             {
-                "cid": 3,
+                "cid": 4,
                 "title": "足球宝贝",
                 "url": "http://www.niutu114.com/meinv/zuqiubaobei/index{page:1}.html"
             }
@@ -82,7 +82,6 @@
         "indexUrl": "http://www.niutu114.com",
         "isGrid": false,
         "loginUrl": "",
-        "searchUrl": "",
         "sid": 63,
         "title": "牛图114",
         "versionCode": 0
