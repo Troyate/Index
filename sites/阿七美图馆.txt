@@ -1,0 +1,53 @@
+{
+    "disableHProxy": false,
+    "flag": "waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".post-item-img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "data-original",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "data-original",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "category": {
+            "fun": "text",
+            "selector": ".item-num"
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "data-original",
+            "selector": ".item-img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".item-link"
+        },
+        "item": {
+            "selector": ".item"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".item-link"
+        }
+    },
+    "indexUrl": "https://a7i.cn",
+    "isGrid": false,
+    "searchUrl": "https://a7i.cn/index.php/search/{keyword:}/{page:1}/",
+    "sid": 13,
+    "title": "阿七美图馆",
+    "versionCode": 0
+}
