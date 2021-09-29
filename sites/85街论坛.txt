@@ -1,0 +1,61 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "图片",
+            "url": "https://85st.com/forum.php?mod=forumdisplay&fid=36&orderby=dateline&orderby=dateline&filter=author&page={page:1}"
+        },
+        {
+            "cid": 2,
+            "title": "自拍",
+            "url": "https://85st.com/forum.php?mod=forumdisplay&fid=39&orderby=dateline&orderby=dateline&filter=author&page={page:1}"
+        }
+    ],
+    "cookie": "",
+    "flag": "noRating|preloadGallery",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".zoom"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "file",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "file",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "https://85st.com/{idCode:}",
+    "gid": 0,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "h3 a"
+        },
+        "item": {
+            "selector": "ul.mtw li"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "h3 a"
+        }
+    },
+    "indexUrl": "https://85st.com/",
+    "isGrid": false,
+    "loginUrl": "",
+    "sid": 63,
+    "title": "85街",
+    "versionCode": 2
+}
