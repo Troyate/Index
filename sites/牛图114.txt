@@ -3,22 +3,22 @@
             {
                 "cid": 1,
                 "title": "性感图片",
-                "url": "http://www.niutu114.com/meinv/xinggan/index{page:1}.html"
+                "url": "http://www.niutu114.com/meinv/xinggan/{pageStr:{page:1}.html}"
             },
             {
                 "cid": 2,
                 "title": "清纯美女",
-                "url": "http://www.niutu114.com/meinv/qingchun/index{page:1}.html"
+                "url": "http://www.niutu114.com/meinv/qingchun/{pageStr:{page:1}.html}"
             },
             {
                 "cid": 3,
                 "title": "丝袜美腿",
-                "url": "http://www.niutu114.com/meinv/siwa/index{page:1}.html"
+                "url": "http://www.niutu114.com/meinv/siwa/{pageStr:{page:1}.html}"
             },
             {
                 "cid": 4,
                 "title": "足球宝贝",
-                "url": "http://www.niutu114.com/meinv/zuqiubaobei/index{page:1}.html"
+                "url": "http://www.niutu114.com/meinv/zuqiubaobei/{pageStr:{page:1}.html}"
             }
         ],
         "cookie": "",
@@ -84,5 +84,5 @@
         "loginUrl": "",
         "sid": 63,
         "title": "牛图114",
-        "versionCode": 0
+        "versionCode": 2
     }
