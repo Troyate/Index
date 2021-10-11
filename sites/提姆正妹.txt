@@ -1,0 +1,65 @@
+{
+    "categories": [{
+        "cid": 1,
+        "title": "最新",
+        "url": "http://www.timliao.com/bbs/forumdisplay.php?fid=18&filter=0&orderby=dateline&page={page:1}"
+    }, {
+        "cid": 2,
+        "title": "热门",
+        "url": "http://www.timliao.com/bbs/forumdisplay.php?fid=18&filter=31536000&orderby=views&page={page:1}"
+    }, {
+        "cid": 3,
+        "title": "精选",
+        "url": "http://www.timliao.com/bbs/forumdisplay.php?fid=18&filter=31536000&orderby=views&page={page:1}"
+    }],
+    "disableHProxy": false,
+    "flag": "noRating|noTag|waterfallAsList|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".postcontent img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "regex": "(https?://[^\"<>]*?\\.jpg)",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "regex": "(https?://[^\"<>]*?\\.jpg)",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "http://www.timliao.com/bbs/{idCode:}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": ".pic img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".pic a"
+        },
+        "item": {
+            "selector": "li.forum-card"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "h2 a"
+        }
+    },
+    "indexUrl": "http://www.timliao.com",
+    "isGrid": false,
+    "loginUrl": "",
+    "searchUrl": "",
+    "sid": 6,
+    "title": "提姆正妹",
+    "versionCode": 0
+}
