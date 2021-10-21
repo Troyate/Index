@@ -1,0 +1,53 @@
+{
+    "disableHProxy": false,
+    "flag": "noCover|waterfallAsList|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".list-gallery a"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            }
+        },
+        "tags": {
+            "fun": "html",
+            "selector": ".link-btn a"
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 1,
+    "index": 429,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "a"
+        },
+        "item": {
+            "selector": ".gallery-a li"
+        },
+        "title": {
+            "fun": "attr",
+            "param": "alt",
+            "selector": "img"
+        }
+    },
+    "indexUrl": "https://www.elitebabes.com/archive/{pageStr:page/{page:1}/}",
+    "isGrid": false,
+    "sid": 11,
+    "title": "Elitebabes",
+    "versionCode": 1
+}

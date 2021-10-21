@@ -1,0 +1,44 @@
+{
+    "disableHProxy": false,
+    "flag": "noCover|waterfallAsList|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".rel-link"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 1,
+    "index": 429,
+    "indexRule": {
+        "cover": {
+            "path": "$.t_url"
+        },
+        "idCode": {
+            "path": "$.g_url"
+        },
+        "item": {
+            "path": "$"
+        },
+        "title": {
+            "path": "$.desc"
+        }
+    },
+    "indexUrl": "https://www.pornpics.de/getnext.php?type\u003drecent\u0026limit\u003d20\u0026offset\u003d{page:20:20}",
+    "isGrid": false,
+    "searchUrl": "https://www.pornpics.de/search/srch.php?q\u003d{keyword:}\u0026limit\u003d20\u0026offset\u003d{page:20:20}",
+    "sid": 7,
+    "title": "Pornpics",
+    "versionCode": 1
+}

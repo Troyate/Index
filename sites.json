@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "cid": 1,
         "title": "写真",
@@ -266,13 +266,68 @@
         "r18": true,
         "sites": [
             {
-                "sid": 501,
+                "sid": 1,
                 "title": "草榴社区",
                 "author": "PureDark",
                 "icon": "",
-                "description": "1024毋须多言",
+                "description": "",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/1024.txt",
-                "versionCode": 4,
+                "versionCode": 1,
+                "lastUpdate": "2016-11-28 00:16:46",
+                "r18": true
+            },
+            {
+                "sid": 2,
+                "title": "NudeXXX",
+                "author": "PureDark",
+                "icon": "",
+                "description": "",
+                "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/Nudexxx.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-11-28 00:16:46",
+                "r18": true
+            },
+            {
+                "sid": 3,
+                "title": "Pornpics",
+                "author": "PureDark",
+                "icon": "",
+                "description": "",
+                "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/Pornpics.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-11-28 00:16:46",
+                "r18": true
+            },
+            {
+                "sid": 4,
+                "title": "Pornpics",
+                "author": "PureDark",
+                "icon": "",
+                "description": "",
+                "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/Pornpics.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-11-28 00:16:46",
+                "r18": true
+            },
+            {
+                "sid": 5,
+                "title": "Javhotphoto",
+                "author": "PureDark",
+                "icon": "",
+                "description": "",
+                "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/Javhotphoto.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-11-28 00:16:46",
+                "r18": true
+            },
+            {
+                "sid": 6,
+                "title": "Elitebabes",
+                "author": "a524822",
+                "icon": "",
+                "description": "",
+                "json": "https://raw.githubusercontent.com/TminiK/Index/master/sites/Elitebabes.txt",
+                "versionCode": 1,
                 "lastUpdate": "2016-11-28 00:16:46",
                 "r18": true
             }
@@ -286,7 +341,7 @@
         "sites": [
             {
                 "sid": 502,
-                "title": "我要个性",
+                "title": "我要个性网",
                 "author": "胖大叔",
                 "icon": "",
                 "description": "",

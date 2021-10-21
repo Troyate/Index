@@ -1,0 +1,52 @@
+{
+    "disableHProxy": false,
+    "flag": "noCover|waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".thecontent img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}{pageStr:\u0026page\u003d{page:1}}",
+    "gid": 1,
+    "index": 429,
+    "indexRule": {
+        "category": {
+            "fun": "text",
+            "selector": ".thecategory"
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".front-view-title a"
+        },
+        "item": {
+            "selector": "article"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".front-view-title a"
+        }
+    },
+    "indexUrl": "https://sxjavpics.xyz/{pageStr:?paged\u003d{page:1}}",
+    "isGrid": false,
+    "sid": 8,
+    "title": "Jav Hot Photos",
+    "versionCode": 1
+}

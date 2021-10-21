@@ -1,0 +1,51 @@
+{
+    "disableHProxy": false,
+    "flag": "noCover|waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".item:gt(1)"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "a"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 1,
+    "index": 429,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "(\\d+).html",
+            "replacement": "https://www.nudexxx.pics/gallery.php?id\u003d$1",
+            "selector": "a"
+        },
+        "item": {
+            "selector": ".item"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".title"
+        }
+    },
+    "indexUrl": "https://www.nudexxx.pics/load.php?p\u003d{page:1}",
+    "isGrid": false,
+    "searchUrl": "https://www.nudexxx.pics/load.php?p\u003d{page:1}\u0026search\u003d{keyword:}",
+    "sid": 5,
+    "title": "NudeXXX",
+    "versionCode": 1
+}
