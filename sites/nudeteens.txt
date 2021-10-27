@@ -1,6 +1,4 @@
 {
-    "disableHProxy": false,
-    "flag": "singlePageBigPicture|noRating|noTag|waterfallAsList|waterfallAsGrid",
     "galleryRule": {
         "pictureRule": {
             "item": {
@@ -9,7 +7,7 @@
             "thumbnail": {
                 "fun": "attr",
                 "param": "src",
-                "selector": "img",
+                "selector": "img"
             },
             "url": {
                 "fun": "attr",
@@ -18,9 +16,6 @@
             }
         }
     },
-    "galleryUrl": "{idCode:}",
-    "gid": 1,
-    "index": 0,
     "indexRule": {
         "cover": {
             "fun": "attr",
@@ -44,8 +39,9 @@
             "selector": ".blogpost_title a"
         }
     },
+    "flag": "noRating|preloadGallery|waterfallAsGrid",
+    "galleryUrl": "{idCode:}",
     "indexUrl": "http://nudeteens.photos/{pageStr:/page/{page:1}/}",
     "searchUrl": "",
     "title": "Nudeteens"
-    "versionCode": 0
 }

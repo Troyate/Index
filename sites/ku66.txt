@@ -1,0 +1,72 @@
+{
+    "categories": [{
+        "cid": 1,
+        "title": "最近更新",
+        "url": "https://www.ku66.net/r/1/list_1_{page:1}.html"
+    },{
+        "cid": 1,
+        "title": "国内美女",
+        "url": "https://www.ku66.net/r/2/list_2_{page:1}.html"
+    }, {
+        "cid": 2,
+        "title": "日韩美女",
+        "url": "https://www.ku66.net/r/3/list_3_{page:1}.html"
+    }, {
+        "cid": 3,
+        "title": "欧美美女",
+        "url": "https://www.ku66.net/r/4/list_4_{page:1}.html"
+    }],
+    "disableHProxy": false,
+    "flag": "noTag|waterfallAsList|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".tupian_img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}{pageStr:_{page:1}}.html",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "(.*?).html",
+            "selector": "a"
+        },
+        "item": {
+            "selector": ".TypeList li"
+        },
+        "title": {
+            "fun": "text",  
+            "selector": ".ListTit"
+        },
+        "datetime": {
+            "fun": "text",
+            "selector": ".IcoTime"
+        }
+    },
+    "indexUrl": "https://m.24tupian.org",
+    "isGrid": false,
+    "loginUrl": "https://m.24tupian.org/login.aspx",
+    "searchUrl": "https://www.ku66.net/plus/search.php?keyword={keyword:}&searchtype=titlekeyword&channeltype=0&orderby=&kwtype=0&pagesize=24&typeid=0&TotalResult=24445&PageNo={page:1}",
+    "sid": 6,
+    "title": "KU66美女",
+    "versionCode": 0
+}

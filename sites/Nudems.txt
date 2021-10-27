@@ -1,0 +1,50 @@
+    {
+        "cookie": "",
+        "flag": "noTag",
+        "galleryRule": {
+            "pictureRule": {
+                "item": {
+                    "selector": ".thumbs-row a"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "data-original",
+                    "selector": "img"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "href",
+                    "selector": "this"
+                }
+            }
+        },
+        "galleryUrl": "{idCode:}",
+        "gid": 0,
+        "index": 0,
+        "indexRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "data-original",
+                "selector": "img"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            },
+            "item": {
+                "selector": ".thumbs-row a"
+            },
+            "title": {
+                "fun": "attr",
+                "param": "alt",
+                "selector": "img"
+            }
+        },
+        "indexUrl": "https://www.nudems.com/newest/?mode=async&function=get_block&block_id=list_albums_common_albums_list&sort_by=post_date&from={page:1}&ipp=20&stepAdv=true&_=1635304004683",
+        "isGrid": false,
+        "searchUrl": "",
+        "sid": 54,
+        "title": "Nudems",
+        "versionCode": 0
+    }
