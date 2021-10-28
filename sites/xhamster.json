@@ -1,0 +1,58 @@
+{
+    "disableHProxy": false,
+    "flag": "singlePageBigPicture|waterfallAsList|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".photo-container"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "data-src",
+                "selector": "img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "data-src",
+                "selector": "img"
+            }
+        }
+    },
+	"extraRule": {
+	    "pictureRule": {
+	        "url": {
+	            "fun": "attr",
+	            "param": "src",
+	            "selector": "#bimgs"
+	        }
+	    }
+	},
+    "indexRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "data-lazy",
+                "selector": ".thumb-image-container__image"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "selector": ".gallery-thumb__link"
+            },
+            "item": {
+                "selector": "div.thumb-list__item"
+            },
+            "title": {
+                "fun": "text",
+                "selector": ".gallery-thumb-info__name"
+            }
+    },
+	"galleryUrl": "{idCode:}{pageStr:/{page:1}}",
+    "indexUrl": "https://xhamster19.com/photos/{pageStr:{page:1}}",
+    "isGrid": false,
+    "searchUrl": "",
+    "sid": 7,
+	"gid": 1,
+	"index": 10,
+    "title": "Xhamster",
+    "versionCode": 1
+}

@@ -1,1 +1,51 @@
-{"disableHProxy":false,"flag":"noRating|waterfallAsList|onePicGallery","galleryUrl":"{idCode:}","gid":10,"index":0,"indexRule":{"cover":{"path":"$.urlbase","regex":"(.*)","replacement":"https://www.bing.com$1_1920x1080.jpg"},"datetime":{"path":"$.startdate"},"description":{"path":"$.copyright"},"idCode":{"path":"$.urlbase","regex":"(.*)","replacement":"https://www.bing.com$1_1920x1080.jpg"},"item":{"path":"$.images"},"pictureRule":{"item":{"path":"$.urlbase"},"thumbnail":{"path":"$","regex":"(.*)","replacement":"https://www.bing.com$1_1920x1080.jpg"},"url":{"path":"$","regex":"(.*)","replacement":"https://www.bing.com$1_1920x1080.jpg"}},"title":{"path":"$.startdate"}},"indexUrl":"http://www.bing.com/HPImageArchive.aspx?format\u003djs\u0026idx\u003d0\u0026n\u003d2222\u0026mkt\u003den-WW","isGrid":false,"sid":122,"title":"必应每日一图","versionCode":0}
+{
+    "disableHProxy": false,
+    "flag": "noRating|waterfallAsList|onePicGallery",
+    "galleryUrl": "{idCode:}",
+    "gid": 10,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "path": "$.urlbase",
+            "regex": "(.*)",
+            "replacement": "https://www.bing.com$1_1920x1080.jpg"
+        },
+        "datetime": {
+            "path": "$.startdate"
+        },
+        "description": {
+            "path": "$.copyright"
+        },
+        "idCode": {
+            "path": "$.urlbase",
+            "regex": "(.*)",
+            "replacement": "https://www.bing.com$1_1920x1080.jpg"
+        },
+        "item": {
+            "path": "$.images"
+        },
+        "pictureRule": {
+            "item": {
+                "path": "$.urlbase"
+            },
+            "thumbnail": {
+                "path": "$",
+                "regex": "(.*)",
+                "replacement": "https://www.bing.com$1_1920x1080.jpg"
+            },
+            "url": {
+                "path": "$",
+                "regex": "(.*)",
+                "replacement": "https://www.bing.com$1_1920x1080.jpg"
+            }
+        },
+        "title": {
+            "path": "$.startdate"
+        }
+    },
+    "indexUrl": "http://www.bing.com/HPImageArchive.aspx?format\u003djs\u0026idx\u003d0\u0026n\u003d2222\u0026mkt\u003den-WW",
+    "isGrid": false,
+    "sid": 122,
+    "title": "必应每日一图",
+    "versionCode": 0
+}
