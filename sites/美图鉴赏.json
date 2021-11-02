@@ -1,0 +1,50 @@
+{
+    "disableHProxy": false,
+    "flag": "noRating|noTag|waterfallAsList|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".post-item-img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "a"
+        },
+        "item": {
+            "selector": ".item"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "a"
+        }
+    },
+    "indexUrl": "https://acg.lspimg.com/page/{page:1}/",
+    "isGrid": false,
+    "loginUrl": "",
+    "searchUrl": "",
+    "sid": 6,
+    "title": "美图鉴赏ACG",
+    "versionCode": 0
+}
