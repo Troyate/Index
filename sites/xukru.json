@@ -1,0 +1,50 @@
+{
+    "disableHProxy": false,
+    "flag": "noCover|waterfallAsList|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".photo-items .photo-item"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "regex": "(.*)thumb(.*).jpg",
+				"replacement": "$1origin$2.jpg",
+                "selector": "img"
+            }
+        },
+        "tags": {
+            "fun": "html",
+            "selector": ".link-btn a"
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 1,
+    "index": 429,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".name"
+        },
+        "item": {
+            "selector": ".items .photo-item"
+        }
+    },
+    "indexUrl": "https://xukru.net/erotic/{pageStr:page/{page:1}/}",
+    "isGrid": false,
+    "sid": 11,
+    "title": "Xukru",
+    "versionCode": 1
+}
