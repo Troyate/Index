@@ -1,0 +1,50 @@
+    {
+        "cookie": "",
+        "flag": "noTag",
+        "galleryRule": {
+            "pictureRule": {
+                "item": {
+                    "selector": "#thread-pic img"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "this"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "this"
+                }
+            }
+        },
+        "galleryUrl": "https://www.lesmao.org/forum.php?mod=viewthread&tid={idCode:}&page={page:1}",
+        "gid": 0,
+        "index": 0,
+        "indexRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+				"regex": "thread-(.*)-1-1.html",
+                "selector": ".t a"
+            },
+            "item": {
+                "selector": "div.group"
+            },
+            "title": {
+                "fun": "text",
+                "selector": ".t"
+            }
+        },
+        "indexUrl": "https://www.lesmao.org/plugin.php?id=web&page={page:1}",
+        "isGrid": false,
+        "searchUrl": "",
+        "sid": 54,
+        "title": "蕾丝猫",
+        "versionCode": 0
+    }
