@@ -1,0 +1,80 @@
+{	
+	    "categories": [
+        {
+            "url": "https://tuchong.com/rest/tags/性感/posts?page={page:1}&count=20&order=new",
+            "title": "性感",
+            "cid": 1
+        },
+        {
+            "url": "https://tuchong.com/rest/tags/美女/posts?page={page:1}&count=20&order=new",
+            "title": "美女",
+            "cid": 2
+        },
+        {
+            "url": "https://tuchong.com/rest/tags/女孩/posts?page={page:1}&count=20&order=new",
+            "title": "女孩",
+            "cid": 3
+        },
+        {
+            "url": "https://tuchong.com/rest/tags/cosplay/posts?page={page:1}&count=20&order=new",
+            "title": "cosplay",
+            "cid": 4
+        },
+        {
+            "url": "https://tuchong.com/rest/tags/丝袜/posts?page={page:1}&count=20&order=new",
+            "title": "丝袜",
+            "cid": 5
+        }
+    ],
+    "disableHProxy": false,
+    "flag": "noRating|waterfallAsList|waterfallAsGrid",
+    "galleryUrl": "{idCode:}",
+    "gid": 5,
+    "index": 0,
+	"cookie": "",
+        "flag": "noTag",
+        "galleryRule": {
+            "pictureRule": {
+                "item": {
+                    "selector": ".multi-photo-image"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "this"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "this"
+                }
+            },
+			"tags"{
+				"fun": "text",
+                "selector": ".common-tag"
+			}
+        },
+    "indexRule": {
+        "cover": {
+            "path": "$.cover_image_src"
+        },
+        "datetime": {
+            "path": "$.passed_time"
+        },
+        "idCode": {
+            "path": "$.url"
+        },
+        "item": {
+            "path": "$.postList"
+        },
+        "title": {
+            "path": "$.excerpt"
+        }
+    },
+    "indexUrl": "https://tuchong.com",
+	"searchUrl": "https://tuchong.com/rest/tags/{keyword:}/posts?page={page:1}&count=20&order=new",
+    "isGrid": false,
+    "sid": 104,
+    "title": "图虫网",
+    "versionCode": 0
+}

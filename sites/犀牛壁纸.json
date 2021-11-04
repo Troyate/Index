@@ -1,0 +1,48 @@
+{
+    "disableHProxy": false,
+    "flag": "noTag|noCover|noRating|preloadGallery|waterfallAsList|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".single-content img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}{pageStr:/{page:1}}",
+    "gid": 4,
+    "index": 314,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "data-original",
+            "selector": ".picture-img img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".grid-title a"
+        },
+        "item": {
+            "selector": ".picture-box"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".grid-title a"
+        }
+    },
+    "indexUrl": "https://www.xintp.com/bizhi/shoujibizhi/{pageStr:page/{page:1}/}",
+    "isGrid": true,
+    "sid": 101,
+    "title": "犀牛壁纸",
+    "versionCode": 0
+}
