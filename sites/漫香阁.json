@@ -1,0 +1,57 @@
+{
+    "disableHProxy": false,
+    "flag": "singlePageBigPicture|repeatedThumbnail|preloadGallery|onePicGallery",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".contentmh img"
+            },
+            "thumbnail":{
+                "fun": "attr",
+                "param": "data-original",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "data-original",
+                "selector": "this"
+            }
+        },
+        "title": {
+            "fun": "html",
+            "selector": ".services-desc h2"
+        }
+    },
+    "galleryUrl": "https://韩漫日漫.xyz/{idCode:}",
+    "gid": 5,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "regex": "(https?://[^\"<>]*?\\.jpg)",
+            "selector": "this"
+        },
+        "datetime": {
+            "fun": "text",
+            "selector": ".dstate"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "this"
+        },
+        "item": {
+            "selector": ".section a"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "h3"
+        }
+    },
+    "indexUrl": "https://韩漫日漫.xyz/list-3-0-{page:1}.html",
+    "isGrid": false,
+    "loginUrl": "",
+    "searchUrl": "",
+    "sid": 43,
+    "title": "漫香阁-Cosplay",
+    "versionCode": 6
+}
