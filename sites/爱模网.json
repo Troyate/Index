@@ -1,0 +1,99 @@
+{
+    "categories": [{
+        "cid": 1,
+        "title": "巨乳美女",
+        "url": "http://kingdom-en.com/meinvtupian/{pageStr:index_{page:1}.html}"
+    }, {
+        "cid": 2,
+        "title": "性感美女",
+        "url": "http://kingdom-en.com/meinvtupian/{pageStr:index_{page:1}.html}"
+    }, {
+        "cid": 3,
+        "title": "丝袜美女",
+        "url": "http://kingdom-en.com/rihanmeinv/{pageStr:index_{page:1}.html}"
+    }, {
+        "cid": 4,
+        "title": "美女写真",
+        "url": "http://kingdom-en.com/meinvxiezhen/{pageStr:index_{page:1}.html}"
+    }, {
+        "cid": 5,
+        "title": "内衣美女",
+        "url": "http://kingdom-en.com/oumeimeinv/{pageStr:index_{page:1}.html}"
+    }, {
+        "cid": 6,
+        "title": "人体美女",
+        "url": "http://kingdom-en.com/rentiyizhu/{pageStr:index_{page:1}.html}"
+    }, {
+        "cid": 7,
+        "title": "清纯美女",
+        "url": "http://kingdom-en.com/bijinimeinv/{pageStr:index_{page:1}.html}"
+    }],
+    "disableHProxy": false,
+    "flag": "noRating|noTag|waterfallAsList|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".pic_center img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}{pageStr:_{page:1}}.html",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "(.*).html",
+            "selector": ".textc"
+        },
+        "item": {
+            "selector": ".channel_list3 li"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".textc"
+        }
+    },
+    "indexUrl": "http://kingdom-en.com/",
+    "isGrid": false,
+    "searchRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "(.*).html",
+            "selector": ".textc"
+        },
+        "item": {
+            "selector": ".index-list-imgc3 li"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".textc"
+        }
+    },
+    "searchUrl": "http://www.kingdom-en.com/public/api.php?app\u003dsearch\u0026q\u003d{keyword:}{pageStr:\u0026page\u003d{page:1}}",
+    "sid": 250,
+    "title": "爱模网",
+    "versionCode": 0
+}
