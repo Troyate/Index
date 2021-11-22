@@ -1,0 +1,121 @@
+﻿    {
+        "categories": [
+            {
+                "cid": 1,
+                "title": "秀人写真",
+                "url": "https://www.shzx.org/b/160-{page:0}.html"
+            },
+            {
+                "cid": 2,
+                "title": "美女模特",
+                "url": "https://www.shzx.org/b/82-{page:0}.html"
+            },
+            {
+                "cid": 3,
+                "title": "精品套图",
+                "url": "https://www.shzx.org/b/148-{page:0}.html"
+            },
+            {
+                "cid": 4,
+                "title": "网络美女",
+                "url": "https://www.shzx.org/b/177-{page:0}.html"
+            },
+            {
+                "cid": 5,
+                "title": "街拍美女",
+                "url": "https://www.shzx.org/b/175-{page:0}.html"
+            },
+            {
+                "cid": 6,
+                "title": "美女明星",
+                "url": "https://www.shzx.org/b/276-{page:0}.html"
+            },
+            {
+                "cid": 7,
+                "title": "展会模特",
+                "url": "https://www.shzx.org/b/172-{page:0}.html"
+            },
+            {
+                "cid": 8,
+                "title": "私房模特",
+                "url": "https://www.shzx.org/b/169-{page:0}.html"
+            },
+            {
+                "cid": 9,
+                "title": "美腿丝袜",
+                "url": "https://www.shzx.org/b/165-{page:0}.html"
+            },
+            {
+                "cid": 10,
+                "title": "韩国美女",
+                "url": "https://www.shzx.org/b/167-{page:0}.html"
+            },
+            {
+                "cid": 10,
+                "title": "日本美女",
+                "url": "https://www.shzx.org/b/168-{page:0}.html"
+            },
+            {
+                "cid": 11,
+                "title": "性感美女",
+                "url": "https://www.shzx.org/b/163-{page:0}.html"
+            }
+        ],
+        "cookie": "",
+        "flag": "noTag",
+        "galleryRule": {
+            "category": {
+                "fun": "html",
+                "selector": "div.position > li > a:eq(2)"
+            },
+            "pictureRule": {
+                "item": {
+                    "selector": "div.picture img"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "this"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "this"
+                }
+            }
+        },
+        "galleryUrl": "https://www.shzx.org{idCode:}-{page:0}.html",
+        "gid": 0,
+        "index": 0,
+        "indexRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "datetime": {
+                "fun": "html",
+				"regex": "(\\d{4}/\\d{2}/\\d{2})",
+                "selector": "span"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "(.*)-0.html",
+                "selector": "h3 a"
+            },
+            "item": {
+                "selector": "div.b_img li"
+            },
+            "title": {
+                "fun": "html",
+                "selector": "h3 a"
+            }
+        },
+        "indexUrl": "https://www.shzx.org",
+        "isGrid": false,
+        "searchUrl": "",
+        "sid": 54,
+        "title": "四海图片",
+        "versionCode": 0
+    }
