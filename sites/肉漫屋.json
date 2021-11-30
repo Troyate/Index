@@ -1,0 +1,52 @@
+{
+    "disableHProxy": false,
+    "flag": "singlePageBigPicture|repeatedThumbnail|preloadGallery|onePicGallery",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".container img"
+            },
+            "thumbnail":{
+               "regex": "(https?://[^\"<>]*?\\.jpg)",
+                "selector": "this"
+            },
+            "url": {
+                "regex": "(https?://[^\"<>]*?\\.jpg)",
+                "selector": "this"
+            }
+        },
+        "title": {
+            "fun": "html",
+            "selector": ".services-desc h2"
+        }
+    },
+    "galleryUrl": "https://rouman01.xyz/{idCode:}/{page:0}",
+    "gid": 5,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "data-src",
+            "selector": ".comicBox_thumbImg__1aomD"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "a"
+        },
+        "item": {
+            "selector": ".books_listArea__2YYEg li"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".comicBox_title__OXwsx"
+        }
+    },
+    "indexUrl": "https://rouman01.xyz/books?&page={page:0}",
+    "isGrid": false,
+    "loginUrl": "",
+    "searchUrl": "",
+    "sid": 43,
+    "title": "肉曼屋",
+    "versionCode": 6
+}

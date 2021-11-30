@@ -1,0 +1,62 @@
+    {
+        "categories": [
+            {
+                "cid": 1,
+                "title": "自拍",
+                "url": "http://hfgjhggf.monster/category-4{pageStr:_{page:1}}.html"
+            },
+            {
+                "cid": 2,
+                "title": "亚洲",
+                "url": "http://hfgjhggf.monster/category-3{pageStr:_{page:1}}.html"
+            }
+        ],
+        "cookie": "",
+        "flag": "noTag",
+        "galleryRule": {
+            "pictureRule": {
+                "item": {
+                    "selector": ".aligncenter"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "this"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "this"
+                }
+            }
+        },
+        "galleryUrl": "{idCode:}",
+        "gid": 0,
+        "index": 0,
+        "indexRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "style",
+				"regex": "(https?://[^\"<>]*?\\.jpg)",
+                "selector": ".thumbnail"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "a"
+            },
+            "item": {
+                "selector": "article.blog"
+            },
+            "title": {
+                "fun": "text",
+                "selector": "h2"
+            }
+        },
+        "indexUrl": "http://hfgjhggf.monster/",
+        "isGrid": false,
+        "searchUrl": "",
+        "sid": 54,
+        "title": "虞姬图片",
+        "versionCode": 0
+    }

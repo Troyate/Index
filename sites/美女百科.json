@@ -1,0 +1,55 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "国内美女",
+            "url": "https://meinv.page/category/%E5%A4%96%E8%A1%A8%E7%BE%8E%E3%80%90%E5%9B%BD%E5%86%85%E3%80%91{pageStr:/page/{page:1}}"
+        },
+        {
+            "cid": 2,
+            "title": "国外美女",
+            "url": "https://meinv.page/category/%e5%a4%96%e8%a1%a8%e7%be%8e%e3%80%90%e5%9b%bd%e5%a4%96%e3%80%91{pageStr:/page/{page:1}}"
+        }
+    ],
+    "flag": "noRating|preloadGallery",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".blocks-gallery-item"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "a"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "a"
+            }
+        }
+    },
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "data-src",
+            "selector": ".lazy"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".entry-title a"
+        },
+        "item": {
+            "selector": "article.post"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".entry-title a"
+        }
+    },
+    "indexUrl": "https://meinv.page",
+    "galleryUrl": "{idCode:}",
+    "searchUrl": "https://meinv.page/{pageStr:page/{page:1}}?s={keyword:}",
+    "title": "美女百科"
+}

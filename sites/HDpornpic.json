@@ -1,0 +1,44 @@
+{
+    "flag": "noRating|preloadGallery",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".ss-image"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            }
+        }
+    },
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "data-src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "a"
+        },
+        "item": {
+            "selector": ".container li"
+        },
+        "title": {
+            "fun": "attr",
+			"param": "title",
+            "selector": "a"
+        }
+    },
+    "indexUrl": "http://hdpornpics.com/search/teen/{pageStr:{page:1}/}",
+    "galleryUrl": "{idCode:}",
+    "searchUrl": "http://hdpornpics.com/search/{keyword:}/{pageStr:{page:1}/}",
+    "title": "HDpornpic"
+}
