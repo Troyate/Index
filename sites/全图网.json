@@ -1,0 +1,86 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "最新",
+            "url": "http://q.quantuwang1.com/meinv/taotu/index{pageStr:_{page:1}}.html"
+        },
+        {
+            "cid": 2,
+            "title": "最热",
+            "url": "http://www.mzitu.com/hot/page/{page:1}"
+        },
+        {
+            "cid": 3,
+            "title": "推荐",
+            "url": "http://www.mzitu.com/best/page/{page:1}"
+        },
+        {
+            "cid": 4,
+            "title": "性感妹子",
+            "url": "http://www.mzitu.com/xinggan/page/{page:1}"
+        },
+        {
+            "cid": 5,
+            "title": "日本妹子",
+            "url": "http://www.mzitu.com/japan/page/{page:1}"
+        },
+        {
+            "cid": 6,
+            "title": "台湾妹子",
+            "url": "http://www.mzitu.com/taiwan/page/{page:1}"
+        },
+        {
+            "cid": 7,
+            "title": "清纯妹子",
+            "url": "http://www.mzitu.com/mm/page/{page:1}"
+        }
+    ],
+    "cookie": "",
+    "flag": "noTag",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".index_c_img img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "http://q.quantuwang1.com/{idCode:}",
+    "gid": 0,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "a"
+        },
+        "item": {
+            "selector": "div.index_middle_c > ul > li"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "span"
+        }
+    },
+    "indexUrl": "",
+    "isGrid": false,
+    "searchUrl": "",
+    "sid": 54,
+    "title": "全图网",
+    "versionCode": 0
+}
