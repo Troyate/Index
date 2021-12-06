@@ -37,7 +37,7 @@
             "cover": {
                 "fun": "attr",
                 "param": "style",
-				"regex": "(https?://[^\"<>]*?\\.jpg)",
+                "regex": "(https?://[^\"<>]*?\\.jpg)",
                 "selector": ".thumbnail"
             },
             "idCode": {

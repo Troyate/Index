@@ -1,1 +1,85 @@
-{"categories":[{"cid":1,"title":"大学校花","url":"https://www.bhhzw.com/category/xiaohua/{page:1}"},{"cid":2,"title":"清纯美女","url":"https://www.bhhzw.com/category/qingchun/{page:1}"},{"cid":3,"title":"明星写真","url":"https://www.bhhzw.com/category/mingxing/{page:1}"},{"cid":4,"title":"性感美女","url":"https://www.bhhzw.com/category/xinggan/{page:1}"},{"cid":5,"title":"旗袍美女","url":"https://www.bhhzw.com/category/qipao/{page:1}"},{"cid":6,"title":"性感车模","url":"https://www.bhhzw.com/category/chemo/{page:1}"}],"disableHProxy":false,"flag":"|waterfallAsGrid|waterfallAsList","galleryRule":{"pictureRule":{"item":{"selector":".post-item-img"},"thumbnail":{"fun":"attr","param":"data-original","selector":"this"},"url":{"fun":"attr","param":"data-original","selector":"this"}}},"galleryUrl":"{idCode:}","gid":1,"index":0,"indexRule":{"category":{"fun":"text","selector":".item-num"},"cover":{"fun":"attr","param":"data-original","selector":".item-img"},"idCode":{"fun":"attr","param":"href","selector":".item-link"},"item":{"selector":".item"},"title":{"fun":"text","selector":".item-link-text"}},"indexUrl":"https://www.bhhzw.com","isGrid":false,"searchUrl":"https://www.bhhzw.com/search/{keyword:}/{page:1}","sid":14,"title":"百合花之王","versionCode":0}
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "大学校花",
+            "url": "https://www.bhhzw.com/category/xiaohua/{page:1}"
+        },
+        {
+            "cid": 2,
+            "title": "清纯美女",
+            "url": "https://www.bhhzw.com/category/qingchun/{page:1}"
+        },
+        {
+            "cid": 3,
+            "title": "明星写真",
+            "url": "https://www.bhhzw.com/category/mingxing/{page:1}"
+        },
+        {
+            "cid": 4,
+            "title": "性感美女",
+            "url": "https://www.bhhzw.com/category/xinggan/{page:1}"
+        },
+        {
+            "cid": 5,
+            "title": "旗袍美女",
+            "url": "https://www.bhhzw.com/category/qipao/{page:1}"
+        },
+        {
+            "cid": 6,
+            "title": "性感车模",
+            "url": "https://www.bhhzw.com/category/chemo/{page:1}"
+        }
+    ],
+    "disableHProxy": false,
+    "flag": "|waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".post-item-img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "data-original",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "data-original",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "category": {
+            "fun": "text",
+            "selector": ".item-num"
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "data-original",
+            "selector": ".item-img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".item-link"
+        },
+        "item": {
+            "selector": ".item"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".item-link-text"
+        }
+    },
+    "indexUrl": "https://www.bhhzw.com",
+    "isGrid": false,
+    "searchUrl": "https://www.bhhzw.com/search/{keyword:}/{page:1}",
+    "sid": 14,
+    "title": "百合花之王",
+    "versionCode": 0
+}

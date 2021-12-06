@@ -1,0 +1,97 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "最新",
+            "url": "https://www.meinv.im/sort/new/?page={page:1}"
+        },
+        {
+            "cid": 2,
+            "title": "最热",
+            "url": "https://www.meinv.im/sort/hot/?page={page:1}"
+        },
+        {
+            "cid": 3,
+            "title": "性感",
+            "url": "https://www.meinv.im/type/1/?page={page:1}"
+        },
+        {
+            "cid": 4,
+            "title": "丝袜",
+            "url": "https://www.meinv.im/type/2/?page={page:1}"
+        },
+        {
+            "cid": 5,
+            "title": "清纯",
+            "url": "https://www.meinv.im/type/3/?page={page:1}"
+        },
+        {
+            "cid": 6,
+            "title": "少女",
+            "url": "https://www.meinv.im/type/4/?page={page:1}"
+        },
+        {
+            "cid": 7,
+            "title": "手绘",
+            "url": "https://www.meinv.im/type/5/?page={page:1}"
+        },
+        {
+            "cid": 5,
+            "title": "cos",
+            "url": "https://www.meinv.im/type/6/?page={page:1}"
+        }
+    ],
+    "disableHProxy": false,
+    "flag": "noRating|noTag|waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".article-content img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "data-src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "data-src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "https://www.meinv.im{idCode:}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "style",
+            "regex": "(static/[^\"<>]*?\\.jpg)",
+            "replacement": "https://www.meinv.im/$1",
+            "selector": ".imgbox"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "h2 a"
+        },
+        "item": {
+            "selector": "article"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "h2 a"
+        },
+        "datetime": {
+            "fun": "html",
+            "selector": "time"
+        }
+    },
+    "indexUrl": "https://www.meinv.im",
+    "isGrid": false,
+    "searchUrl": "https://www.meinv.im/{pageStr:page/{page:1}}?s\u003d{keyword:}",
+    "sid": 27,
+    "title": "美女集社",
+    "versionCode": 0
+}

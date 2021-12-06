@@ -1,44 +1,44 @@
 {
-    "disableHProxy": false,
-    "flag": "waterfallAsList|waterfallAsGrid",
-    "galleryRule": {
-        "pictureRule": {
-            "item": {
-                "selector": ".list-gallery a"
-            },
-            "thumbnail": {
-                "fun": "attr",
-                "param": "href",
-                "selector": "this"
-            },
-            "url": {
-                "fun": "attr",
-                "param": "href",
-                "selector": "this"
-            }
-        }
+  "disableHProxy": false,
+  "flag": "waterfallAsList|waterfallAsGrid",
+  "galleryRule": {
+    "pictureRule": {
+      "item": {
+        "selector": ".list-gallery a"
+      },
+      "thumbnail": {
+        "fun": "attr",
+        "param": "href",
+        "selector": "this"
+      },
+      "url": {
+        "fun": "attr",
+        "param": "href",
+        "selector": "this"
+      }
+    }
+  },
+  "galleryUrl": "{idCode:}",
+  "gid": 1,
+  "index": 429,
+  "indexRule": {
+    "cover": {
+      "fun": "attr",
+      "param": "src",
+      "selector": "img"
     },
-    "galleryUrl": "{idCode:}",
-    "gid": 1,
-    "index": 429,
-    "indexRule": {
-        "cover": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "img"
-        },
-        "idCode": {
-            "fun": "attr",
-            "param": "href",
-            "selector": "a"
-        },
-        "item": {
-            "selector": "#content li"
-        }
+    "idCode": {
+      "fun": "attr",
+      "param": "href",
+      "selector": "a"
     },
-    "indexUrl": "https://www.metarthunter.com/archive/page/{page:1}/",
-    "isGrid": false,
-    "sid": 11,
-    "title": "Metarthunter",
-    "versionCode": 1
+    "item": {
+      "selector": "#content li"
+    }
+  },
+  "indexUrl": "https://www.metarthunter.com/archive/page/{page:1}/",
+  "isGrid": false,
+  "sid": 11,
+  "title": "Metarthunter",
+  "versionCode": 1
 }

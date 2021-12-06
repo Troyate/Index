@@ -1,0 +1,68 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "秀人网",
+            "url": "https://yskhd.com/xiuren/{pageStr:page/{page:1}}"
+        },
+        {
+            "cid": 2,
+            "title": "丝袜美腿",
+            "url": "https://yskhd.com/smzq/{pageStr:page/{page:1}}"
+        },
+        {
+            "cid": 3,
+            "title": "日韩精品",
+            "url": "https://yskhd.com/%e6%97%a5%e9%9f%a9%e7%b2%be%e5%93%81%e5%86%99%e7%9c%9f/{pageStr:page/{page:1}}"
+        }
+    ],
+    "disableHProxy": false,
+    "flag": "noRating|noTag|waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".gallery-item img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "regex": "(.*?)-285x285.jpg",
+                "replacement": "$1-scaled.jpg",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "data-src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "h3 a"
+        },
+        "item": {
+            "selector": ".post.grid"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "h3 a"
+        }
+    },
+    "indexUrl": "https://yskhd.com",
+    "isGrid": false,
+    "searchUrl": "https://yskhd.com/{pageStr:page/{page:1}}?s\u003d{keyword:}",
+    "sid": 27,
+    "title": "优丝库",
+    "versionCode": 0
+}
