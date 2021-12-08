@@ -1,0 +1,54 @@
+{
+    "disableHProxy": false,
+    "flag": "noRating|noTag|waterfallAsList|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".work-content img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        },
+        "tags": {
+            "fun": "html",
+            "selector": "div.con-tag > a"
+        }
+    },
+    "galleryUrl": "https://www.meitu131.net{idCode:}index{pageStr:_{page:1}}.html",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "data-echo",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "p a"
+        },
+        "item": {
+            "selector": ".cover-list > ul > li"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "p a"
+        }
+    },
+    "indexUrl": "https://www.meitu131.net/meinv/index{pageStr:_{page:1}}.html",
+    "isGrid": false,
+    "loginUrl": "",
+    "searchUrl": "",
+    "sid": 6,
+    "title": "美图131",
+    "versionCode": 0
+}
