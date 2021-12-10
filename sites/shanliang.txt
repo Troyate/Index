@@ -1,1 +1,69 @@
-{"categories":[{"cid":1,"title":"instagram","url":"https://shanliang.xyz/instagram/"},{"cid":2,"title":"weibo","url":"https://shanliang.xyz/weibo/"},{"cid":3,"title":"pixiv","url":"https://shanliang.xyz/pixiv/"},{"cid":4,"title":"BuyerShow","url":"https://shanliang.xyz/BuyerShow/"}],"disableHProxy":false,"flag":"noRating|preloadGallery|waterfallAsGrid|waterfallAsList","galleryRule":{"pictureRule":{"item":{"selector":".gallery .img-link"},"thumbnail":{"fun":"attr","param":"data-image","selector":"this"},"url":{"fun":"attr","param":"data-image","selector":"this"}}},"galleryUrl":"https://shanliang.xyz{idCode:}","gid":1,"index":0,"indexRule":{"cover":{"fun":"attr","param":"data-src","selector":"img"},"datetime":{"fun":"text","selector":".date a"},"idCode":{"fun":"attr","param":"href","selector":".item-link"},"item":{"selector":".folders section"},"title":{"fun":"text","selector":".title"}},"indexUrl":"https://shanliang.xyz","isGrid":false,"sid":5,"title":"shanliang-爬虫鸡","versionCode":0}
+{
+    "categories": [{
+        "cid": 1,
+        "title": "instagram",
+        "url": "https://shanliang.xyz/instagram/"
+    }, {
+        "cid": 2,
+        "title": "weibo",
+        "url": "https://shanliang.xyz/weibo/"
+    }, {
+        "cid": 3,
+        "title": "pixiv",
+        "url": "https://shanliang.xyz/pixiv/"
+    }, {
+        "cid": 4,
+        "title": "BuyerShow",
+        "url": "https://shanliang.xyz/BuyerShow/"
+    }],
+    "disableHProxy": false,
+    "flag": "noRating|preloadGallery|waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".gallery .img-link"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "data-image",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "data-image",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "https://shanliang.xyz{idCode:}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "data-src",
+            "selector": "img"
+        },
+        "datetime": {
+            "fun": "text",
+            "selector": ".date a"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".item-link"
+        },
+        "item": {
+            "selector": ".folders section"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".title"
+        }
+    },
+    "indexUrl": "https://shanliang.xyz",
+    "isGrid": false,
+    "sid": 5,
+    "title": "shanliang-爬虫鸡",
+    "versionCode": 0
+}

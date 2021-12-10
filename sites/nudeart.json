@@ -1,0 +1,59 @@
+{
+    "disableHProxy": false,
+    "flag": "waterfallAsList|waterfallAsGrid",
+    "galleryRule": {
+      "pictureRule": {
+        "item": {
+          "selector": ".justified-gallery a"
+        },
+        "thumbnail": {
+          "fun": "attr",
+          "param": "href",
+          "selector": "this"
+        },
+        "url": {
+          "fun": "attr",
+          "param": "href",
+          "selector": "this"
+        }
+      },
+      "tags": {
+          "fun": "html",
+          "selector": ".model-tag-list a"
+      }
+    },
+    "galleryUrl": "https://nudeart.tv{idCode:}",
+    "gid": 1,
+    "index": 429,
+    "indexRule": {
+      "cover": {
+        "fun": "attr",
+        "param": "data-lazy-src",
+        "selector": "img"
+      },
+      "idCode": {
+        "fun": "attr",
+        "param": "href",
+        "selector": "a"
+      },
+      "title": {
+          "fun": "attr",
+          "param": "alt",
+          "selector": "img"
+      },
+      "uploader": {
+          "fun": "text",
+          "selector": "h2 a"
+      },   
+      "item": {
+        "selector": ".thumb-block"
+      }
+    },
+    "indexUrl": "https://nudeart.tv/photos/{pageStr:page/{page:1}/}",
+    "searchUrl":"https://nudeart.tv/search/{keyword:}/{pageStr:page/{page:1}/}",
+    "isGrid": false,
+    "sid": 11,
+    "title": "Nudeart",
+    "versionCode": 1
+  }
+  
