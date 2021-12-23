@@ -4,17 +4,16 @@
     "galleryRule": {
         "pictureRule": {
             "item": {
-                "selector": ".prefix-thumbs img"
+                "selector": ".prefix-gallery img"
             },
             "thumbnail": {
                 "fun": "attr",
-                "param": "src",
+                "param": "href",
                 "selector": "this"
             },
             "url": {
                 "fun": "attr",
-                "param": "src",
-				"regex":"th_(.*)",
+                "param": "href",
                 "selector": "this"
             }
         }	
@@ -31,7 +30,6 @@
         "idCode": {
             "fun": "attr",
             "param": "href",
-            "regex":"out.php\\u003Furl=(.*)",
             "selector": "a"
         },
         "item": {

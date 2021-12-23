@@ -4,17 +4,16 @@
     "galleryRule": {
         "pictureRule": {
             "item": {
-                "selector": ".prefix-thumbs img"
+                "selector": "#container a"
             },
             "thumbnail": {
                 "fun": "attr",
-                "param": "src",
+                "param": "href",
                 "selector": "this"
             },
             "url": {
                 "fun": "attr",
-                "param": "src",
-				"regex":"th_(.*)",
+                "param": "href",
                 "selector": "this"
             }
         }	
@@ -25,17 +24,16 @@
     "indexRule": {
         "cover": {
             "fun": "attr",
-            "param": "src",
+            "param": "data-src",
             "selector": "img"
         },
         "idCode": {
             "fun": "attr",
             "param": "href",
-            "regex":"out.php\\u003Furl=(.*)",
-            "selector": "a"
+            "selector": "this"
         },
         "item": {
-            "selector": ".prefix-thumb"
+            "selector": "ul#container a"
         },
         "title": {
             "fun": "attr",
@@ -43,10 +41,10 @@
             "selector": "img"
         }
     },
-    "indexUrl": "http://hotnudegf.com/{pageStr:{page:1}.php}",
+    "indexUrl": "http://nakedwomenpics.com/search/japanese/{pageStr:{page:1}/}",
     "isGrid": false,
-    "searchUrl": "",
+    "searchUrl": "http://nakedwomenpics.com/search/{keyword:}/{pageStr:{page:1}/}",
     "sid": 7,
-    "title": "Hotnudegf",
+    "title": "Nakedwomenpics",
     "versionCode": 1
 }

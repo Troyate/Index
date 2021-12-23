@@ -4,22 +4,21 @@
     "galleryRule": {
         "pictureRule": {
             "item": {
-                "selector": ".prefix-thumbs img"
+                "selector": ".img-init"
             },
             "thumbnail": {
                 "fun": "attr",
-                "param": "src",
+                "param": "href",
                 "selector": "this"
             },
             "url": {
                 "fun": "attr",
-                "param": "src",
-				"regex":"th_(.*)",
+                "param": "href",
                 "selector": "this"
             }
         }	
     },
-    "galleryUrl": "{idCode:}",
+    "galleryUrl": "https://www.girlsnudepic.com{idCode:}",
     "gid": 1,
     "index": 429,
     "indexRule": {
@@ -31,22 +30,21 @@
         "idCode": {
             "fun": "attr",
             "param": "href",
-            "regex":"out.php\\u003Furl=(.*)",
-            "selector": "a"
+            "selector": ".portfolio-photo"
         },
         "item": {
-            "selector": ".prefix-thumb"
+            "selector": "li"
         },
         "title": {
             "fun": "attr",
-            "param": "alt",
-            "selector": "img"
+            "param": "title",
+            "selector": ".portfolio-photo"
         }
     },
-    "indexUrl": "http://hotnudegf.com/{pageStr:{page:1}.php}",
+    "indexUrl": "https://www.girlsnudepic.com/ajax/niche/teen/{page:1}?order=ctr",
     "isGrid": false,
-    "searchUrl": "",
-    "sid": 7,
-    "title": "Hotnudegf",
+    "searchUrl": "https://www.girlsnudepic.com/ajax/find/{keyword:}/{page:1}?order=ctr",
+    "sid": 8,
+    "title": "Girlsnudepic",
     "versionCode": 1
 }

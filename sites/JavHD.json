@@ -1,0 +1,82 @@
+{
+    "categories": [{
+        "cid": 1,
+        "title": "met-art",
+        "url": "https://www.jav.ink/category/met-art/met-art-multiple-amateurs/{pageStr:page/{page:1}}"
+    }, {
+        "cid": 2,
+        "title": "steamgirl",
+        "url": "https://www.jav.ink/category/steamgirl/{pageStr:page/{page:1}}"
+    }, {
+        "cid": 3,
+        "title": "teenfuns",
+        "url": "https://www.jav.ink/category/teenfuns/{pageStr:page/{page:1}}"
+    }, {
+        "cid": 4,
+        "title": "zishy",
+        "url": "https://www.jav.ink/category/zishy-beautiful-girl/{pageStr:page/{page:1}}"
+    }, {
+        "cid": 5,
+        "title": "photodromm",
+        "url": "https://www.jav.ink/category/photodromm/{pageStr:page/{page:1}}"
+    }, {
+        "cid": 6,
+        "title": "coccozella",
+        "url": "https://www.jav.ink/category/coccozella-nudist-photography/{pageStr:page/{page:1}}"
+    }, {
+        "cid": 7,
+        "title": "public",
+        "url": "https://www.jav.ink/category/nude-in-public/{pageStr:page/{page:1}}"
+    }, {
+        "cid": 8,
+        "title": "just-nude",
+        "url": "https://www.jav.ink/category/just-nude/{pageStr:page/{page:1}}"
+    }],
+    "disableHProxy": false,
+    "flag": "noRating|preloadGallery|waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".gallery-icon"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "a"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": ".wp-post-image"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".entry-title a"
+        },
+        "item": {
+            "selector": "#infinite-articles li"
+        },
+        "title": {
+            "fun": "html",
+            "selector": ".entry-title a"
+        }
+    },
+    "indexUrl": "https://www.jav.ink/",
+	"searchUrl":"https://www.jav.ink/{pageStr:page/{page:1}/}?s={keyword:}",
+    "isGrid": true,
+    "sid": 2,
+    "title": "JAVHD",
+    "versionCode": 0
+}

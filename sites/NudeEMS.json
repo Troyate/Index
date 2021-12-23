@@ -1,0 +1,51 @@
+{
+    "disableHProxy": false,
+    "flag": "waterfallAsList|waterfallAsGrid",
+    "galleryRule": {
+      "pictureRule": {
+        "item": {
+          "selector": ".images a"
+        },
+        "thumbnail": {
+          "fun": "attr",
+          "param": "href",
+          "selector": "this"
+        },
+        "url": {
+          "fun": "attr",
+          "param": "href",
+          "selector": "this"
+        }
+      }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 1,
+    "index": 429,
+    "indexRule": {
+      "cover": {
+        "fun": "attr",
+        "param": "data-original",
+        "selector": "img"
+      },
+      "idCode": {
+        "fun": "attr",
+        "param": "href",
+        "selector": "this"
+      },
+      "title": {
+          "fun": "attr",
+          "param": "alt",
+          "selector": "img"
+      }, 
+      "item": {
+        "selector": ".thumbs-row a"
+      }
+    },
+    "indexUrl": "https://www.nudems.com/newest/?mode=async&function=get_block&block_id=list_albums_common_albums_list&sort_by=post_date&from={page:1}&ipp=20&stepAdv=false&_=1639101733058",
+    "searchUrl":"https://www.nudems.com/search/SEX/?mode=async&function=get_block&block_id=list_albums_albums_list_search_result&q={keyword:}&category_ids=&sort_by=post_date&from_albums={page:1}&ipp=20&_=1639102191504",
+    "isGrid": false,
+    "sid": 11,
+    "title": "Nudems",
+    "versionCode": 1
+  }
+  
