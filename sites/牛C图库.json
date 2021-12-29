@@ -1,0 +1,50 @@
+{
+    "disableHProxy": false,
+    "flag": "|waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".panel-body img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "data-src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "data-src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "data-src",
+            "selector": "this"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "this"
+        },
+        "item": {
+            "selector": "a.media-content"
+        },
+        "title": {
+            "fun": "attr",
+            "param": "title",
+            "selector": "this"
+        }
+    },
+    "indexUrl": "https://niuc.icu/sex/{pageStr:page/{page:1}/}",
+    "isGrid": false,
+    "searchUrl": "",
+    "sid": 13,
+    "title": "牛C图库",
+    "versionCode": 0
+}

@@ -1,0 +1,54 @@
+{
+    "disableHProxy": false,
+    "flag": "singlePageBigPicture|repeatedThumbnail|preloadGallery|onePicGallery",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".entry-content img"
+            },
+            "thumbnail":{
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "https://www.ilovexs.com{idCode:}",
+    "gid": 5,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": ".wp-post-image"
+        },
+        "datetime": {
+            "fun": "text",
+            "selector": "time"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".entry-title a"
+        },
+        "item": {
+            "selector": "article"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".entry-title"
+        }
+    },
+    "indexUrl": "https://www.ilovexs.com/page/{page:1}/",
+    "isGrid": false,
+    "loginUrl": "",
+    "searchUrl": "https://www.ilovexs.com/search/?key={keyword:}",
+    "sid": 43,
+    "title": "Ilovexs",
+    "versionCode": 6
+}

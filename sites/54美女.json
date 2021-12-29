@@ -1,0 +1,51 @@
+{
+    "disableHProxy": false,
+    "flag": "noRating|noTag|waterfallAsList|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": "div:eq(3)"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            }
+        }
+    },
+    "galleryUrl": "http://m.54mn.cc{idCode:}{page:1}.html",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "(.*)1.html",
+            "selector": "a"
+        },
+        "item": {
+            "selector": ".index_middle_c li"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "span"
+        }
+    },
+    "indexUrl": "http://m.54mn.cc/meinv/taotu/index{pageStr:_{page:1}}.html",
+    "isGrid": false,
+    "loginUrl": "",
+    "searchUrl": "",
+    "sid": 6,
+    "title": "54美女",
+    "versionCode": 0
+}

@@ -1,0 +1,75 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "最新",
+            "url": "https://zh.hentai-cosplays.com/search/page/{page:1}/"
+        },
+        {
+            "cid": 2,
+            "title": "最佳",
+            "url": "https://zh.hentai-cosplays.com/recently/page/{page:1}/"
+        },
+        {
+            "cid": 3,
+            "title": "随机",
+            "url": "https://zh.hentai-cosplays.com/ranking/page/{page:1}/"
+        }
+    ],
+    "disableHProxy": false,
+    "flag": "noRating|noTag|waterfallAsList|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".icon-overlay"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            }
+        },
+		"tags":{
+				"fun": "text",
+                "selector": "p#detail_tag a"
+		}
+    },
+    "galleryUrl": "https://zh.hentai-cosplays.com{idCode:}{pageStr:page/{page:1}/}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".image-list-item-title a"
+        },
+        "item": {
+            "selector": ".image-list-item"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".image-list-item-title a"
+        },
+        "datetime": {
+            "fun": "text",
+            "selector": ".image-list-item-regist-date"
+        }
+    },
+    "indexUrl": "https://zh.hentai-cosplays.com",
+    "isGrid": false,
+    "loginUrl": "",
+    "searchUrl": "https://zh.hentai-cosplays.com/search/keyword/{keyword:}/{pageStr:page/{page:1}/}",
+    "sid": 6,
+    "title": "Hentai-cosplays",
+    "versionCode": 0
+}
