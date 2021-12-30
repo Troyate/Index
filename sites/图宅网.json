@@ -1,0 +1,49 @@
+{
+    "disableHProxy": false,
+    "flag": "|waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": "#the-photo"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "https://www.tuzac.com{idCode:}{pageStr:/?at={page:1}/}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "data-src",
+            "selector": ".lazy"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".teaser-file-title a"
+        },
+        "item": {
+            "selector": "article"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".teaser-file-title a"
+        }
+    },
+    "indexUrl": "https://www.tuzac.com/newest/{page:1}",
+    "isGrid": false,
+    "searchUrl": "https://www.tuzac.com/search/{pageStr:{page:1}}?term={keyword:}",
+    "sid": 13,
+    "title": "图宅网",
+    "versionCode": 0
+}

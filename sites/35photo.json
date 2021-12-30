@@ -1,0 +1,49 @@
+{
+    "disableHProxy": false,
+    "flag": "|waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".mainPhoto"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": ".photos_photo"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".photos_text a"
+        },
+        "item": {
+            "selector": ".photos_div"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".photos_info_desc"
+        }
+    },
+    "indexUrl": "https://c1.35photo.pro/tags/model/{pageStr:list_{page:1}/}",
+    "isGrid": false,
+    "searchUrl": "https://c1.35photo.pro/tags/{keyword:}/{pageStr:list_{page:1}/}",
+    "sid": 13,
+    "title": "35photo",
+    "versionCode": 0
+}

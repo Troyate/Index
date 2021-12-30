@@ -1,0 +1,49 @@
+{
+    "disableHProxy": false,
+    "flag": "|waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".entry-content img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}{pageStr:/{page:1}}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "data-src",
+            "selector": ".post-thumb"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".thumb-link"
+        },
+        "item": {
+            "selector": ".post-list-item"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "h2 a"
+        }
+    },
+    "indexUrl": "https://www.miaitu.net/img_online/{pageStr:page/{page:1}}",
+    "isGrid": false,
+    "searchUrl": "",
+    "sid": 13,
+    "title": "觅爱图",
+    "versionCode": 0
+}
