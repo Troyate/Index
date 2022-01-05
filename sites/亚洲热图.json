@@ -1,0 +1,49 @@
+{
+    "disableHProxy": false,
+    "flag": "waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".info-img-box img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}{pageStr:?page={page:1}}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+            "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".rows-2 a"
+        },
+        "item": {
+            "selector": ".col-25.col-m-12.mb15"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".rows-2 a"
+        }
+    },
+    "indexUrl": "https://www.hotyazhoure.com/category-7.html?type=new&page={page:1}",
+    "isGrid": false,
+    "searchUrl": "https://www.hotyazhoure.com/search.php?q={keyword:}&type=new&page={page:1}",
+    "sid": 13,
+    "title": "亚洲热图",
+    "versionCode": 0
+}

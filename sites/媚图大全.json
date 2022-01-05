@@ -1,0 +1,83 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "GIF动图",
+            "url": "https://ai0474.com/pic_list/25/{page:1}.html"
+        },
+        {
+            "cid": 2,
+            "title": "唯美写真",
+            "url": "https://ai0474.com/pic_list/26/{page:1}.html"
+        },
+        {
+            "cid": 3,
+            "title": "网友自拍",
+            "url": "https://ai0474.com/pic_list/27/{page:1}.html"
+        },
+        {
+            "cid": 4,
+            "title": "露出激情",
+            "url": "https://ai0474.com/pic_list/28/{page:1}.html"
+        },
+        {
+            "cid": 5,
+            "title": "街拍偷拍",
+            "url": "https://ai0474.com/pic_list/29/{page:1}.html"
+        },
+        {
+            "cid": 5,
+            "title": "女优资讯",
+            "url": "https://ai0474.com/pic_list/30/{page:1}.html"
+        }
+    ],
+    "disableHProxy": false,
+    "flag": "waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": "#box-container img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+			"regex":"/pic_detail/(.*).html",
+            "replacement": "https://ai0474.com/pic_conter/$1.html",
+            "selector": "a"
+        },
+        "item": {
+            "selector": ".video-item"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "p"
+        }
+    },
+    "indexUrl": "https://ai0474.com/",
+    "isGrid": false,
+    "searchUrl": "https://www.bhhzw.com/search/{keyword:}/{page:1}",
+    "sid": 14,
+    "title": "媚图大全",
+    "versionCode": 0
+}
