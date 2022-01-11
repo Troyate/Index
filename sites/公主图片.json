@@ -3,17 +3,17 @@
             {
                 "cid": 1,
                 "title": "最新作品",
-                "url": "https://www.hotyazhoure.com/category-7.html?type=new{pageStr:&page={page:1}}"
+                "url": "https://www.gztv2021.com/img.html?type=new{pageStr:&page={page:1}}"
             },
             {
                 "cid": 2,
                 "title": "热门作品",
-                "url": "https://www.hotyazhoure.com/category-7.html?type=hot{pageStr:&page={page:1}}"
+                "url": "https://www.gztv2021.com/img.html?type=hot{pageStr:&page={page:1}}"
             },
             {
                 "cid": 3,
                 "title": "最受欢迎",
-                "url": "https://www.hotyazhoure.com/category-7.html?type=digg{pageStr:&page={page:1}}"
+                "url": "https://www.gztv2021.com/img.html?type=digg{pageStr:&page={page:1}}"
             }
         ],
     "disableHProxy": false,
@@ -21,7 +21,7 @@
     "galleryRule": {
         "pictureRule": {
             "item": {
-                "selector": ".info-img-box img"
+                "selector": ".tx-text img"
             },
             "thumbnail": {
                 "fun": "attr",
@@ -35,7 +35,7 @@
             }
         }
     },
-    "galleryUrl": "{idCode:}{pageStr:?page={page:1}}",
+    "galleryUrl": "{idCode:}",
     "gid": 1,
     "index": 0,
     "indexRule": {
@@ -50,7 +50,7 @@
             "selector": "h3 a"
         },
         "item": {
-            "selector": ".col-25.col-m-12.mb15"
+            "selector": ".col-6.col-m-12.mb15"
         },
         "title": {
             "fun": "text",
@@ -59,8 +59,8 @@
     },
     "indexUrl": "",
     "isGrid": false,
-    "searchUrl": "https://www.hotyazhoure.com/search.php?q={keyword:}&type=new{pageStr:&page={page:1}}",
+    "searchUrl": "https://www.gztv2021.com/search.php?q={keyword:}&type=new{pageStr:&page={page:1}}",
     "sid": 13,
-    "title": "亚洲热图",
+    "title": "公主图片",
     "versionCode": 0
 }

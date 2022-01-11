@@ -1,0 +1,49 @@
+ {
+    "disableHProxy": false,
+    "flag": "waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".tx-text img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+            "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".txt-ov a"
+        },
+        "item": {
+            "selector": ".col-4.col-m-24.mb15"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".txt-ov a"
+        }
+    },
+    "indexUrl": "https://www.junlan58.com/piclist-{page:1}.html",
+    "isGrid": false,
+    "searchUrl": "",
+    "sid": 13,
+    "title": "5号房",
+    "versionCode": 0
+}

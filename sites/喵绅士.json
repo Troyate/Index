@@ -1,0 +1,61 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "最新",
+            "url": "https://zhb.eehentai.com/language/chinese/{pageStr:page/{page:1}}"
+        },
+        {
+            "cid": 2,
+            "title": "最热",
+            "url": "https://zhb.eehentai.com/language/chinese/popular/{pageStr:page/{page:1}}"
+        }
+    ],
+    "cookie": "",
+    "flag": "noTag",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".list-img.lazyload"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "data-src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "data-src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "https://zhb.eehentai.com/{idCode:}list2/",
+    "gid": 0,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "data-src",
+            "selector": ".lazyload"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".cover"
+        },
+        "item": {
+            "selector": "div.gallery"
+        },
+        "title": {
+            "fun": "html",
+            "selector": ".caption"
+        }
+    },
+    "indexUrl": "",
+    "isGrid": false,
+    "searchUrl": "",
+    "sid": 54,
+    "title": "喵绅士",
+    "versionCode": 0
+}
