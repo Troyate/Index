@@ -1,0 +1,50 @@
+{
+        "categories": [
+          {
+            "cid": 1,
+            "title": "美女",
+            "url": "https://mini.browser.360.cn/newtab/imgsx?tid=70&page={page:1}&uid=258e79f865c9d0a734ffd803bd9cf800&n=xxx&v=9.0"
+          }
+        ],
+        "cookie": "",
+        "disableHProxy": false,
+        "flag": "noTag|waterfallAsGrid|waterfallAsList",
+        "galleryRule": {
+          "pictureRule": {
+            "item": {
+              "selector": "$.img"
+            },
+            "thumbnail": {
+              "path": "$"
+            },
+            "url": {
+              "path": "$"
+            }
+          }
+        },
+        "galleryUrl": "{idCode:}",
+        "gid": 5,
+        "header": "",
+        "index": 0,
+        "indexRule": {
+          "cover": {
+            "path": "$.img"
+          },
+          "idCode": {
+            "path": "$.img"
+          },
+          "item": {
+            "path": "$.data.list"
+          },
+          "title": {
+            "path": "$.motto"
+          }
+        },
+        "indexUrl": "",
+        "isGrid": false,
+        "loginUrl": "",
+        "searchUrl": "",
+        "sid": 241,
+        "title": "360浏览器壁纸",
+        "versionCode": 0
+      }

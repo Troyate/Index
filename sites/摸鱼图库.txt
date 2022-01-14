@@ -1,24 +1,25 @@
 {
     "disableHProxy": false,
-    "flag": "|waterfallAsGrid|waterfallAsList",
+    "flag": "waterfallAsGrid|waterfallAsList",
     "galleryRule": {
         "pictureRule": {
             "item": {
-                "selector": ".photos .item"
+                "selector": ".photos a:not(:has(img))"
             },
             "thumbnail": {
                 "fun": "attr",
-                "param": "src",
-                "selector": "this"
+                "param": "style",
+				"regex": "(https?://[^\"<>]*?\\.jpg)",
+                "selector": ".item"
             },
             "url": {
                 "fun": "attr",
-                "param": "src",
+                "param": "href",
                 "selector": "this"
             }
         }
     },
-    "galleryUrl": "https://xchina.xyz{idCode:}{pageStr:/{page:2}}.html",
+    "galleryUrl": "https://52996.me{idCode:}{pageStr:/{page:1}}.html",
     "gid": 1,
     "index": 0,
     "indexRule": {
@@ -50,10 +51,10 @@
             "selector": "img"
         }
     },
-    "indexUrl": "https://xchina.xyz",
+    "indexUrl": "https://52996.me/photos/{page:1}.html",
     "isGrid": false,
-    "searchUrl": "https://xchina.xyz/search/keyword-{keyword:}/{page:1}.html",
-    "sid": 13,
+    "searchUrl": "https://52996.me/search/keyword-{keyword:}/{page:1}.html",
+    "sid": 12,
     "title": "摸鱼图库",
     "versionCode": 0
 }
