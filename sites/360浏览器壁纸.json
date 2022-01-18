@@ -12,7 +12,7 @@
         "galleryRule": {
           "pictureRule": {
             "item": {
-              "selector": "$.img"
+              "selector": "$"
             },
             "thumbnail": {
               "path": "$"
