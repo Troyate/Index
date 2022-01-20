@@ -1,0 +1,46 @@
+{
+    "disableHProxy": false,
+    "flag": "singlePageBigPicture|repeatedThumbnail|preloadGallery|onePicGallery",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".img-tag"
+            },
+            "thumbnail":{
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 5,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": ".img-item img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "h2 a"
+        },
+        "item": {
+            "selector": ".list-item"
+        }
+    },
+    "indexUrl": "https://xn--p49av42e.com/bbs/board.php?bo_table=gallery&page={page:1}",
+    "isGrid": false,
+    "loginUrl": "",
+    "searchUrl": "",
+    "sid": 43,
+    "title": "韩国图站1",
+    "versionCode": 6
+}

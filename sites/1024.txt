@@ -93,7 +93,7 @@
                 "selector": "td:eq(1) h3 a"
             },
             "item": {
-                "selector": "#ajaxtable tr.tr3.t_one:gt(10)"
+                "selector": ".tr3.t_one.tac:gt(7)"
             },
             "title": {
                 "fun": "html",

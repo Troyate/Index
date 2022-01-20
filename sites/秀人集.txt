@@ -1,0 +1,165 @@
+﻿{
+    "categories": [{
+        "cid": 1,
+        "title": "秀人",
+        "url": "https://www.xiurenji.net/XiuRen/{pageStr:index{page:1}.html}"
+    }, {
+        "cid": 2,
+        "title": "推女郎",
+        "url": "https://www.xiurenji.net/MFStar/"
+    }, {
+        "cid": 3,
+        "title": "美媛馆",
+        "url": "https://www.xiurenji.net/MyGirl/"
+    }, {
+        "cid": 4,
+        "title": "花漾",
+        "url": "https://www.xiurenji.net/HuaYang/"
+    }, {
+        "cid": 5,
+        "title": "星颜社",
+        "url": "https://www.xiurenji.net/XingYan/"
+    }, {
+        "cid": 6,
+        "title": "兔几盟",
+        "url": "https://www.xiurenji.net/BoLoli/"
+    }, {
+        "cid": 7,
+        "title": "IMISS爱蜜社",
+        "url": "https://www.xiurenji.net/IMiss/"
+    }, {
+        "cid": 8,
+        "title": "MiStar魅妍社",
+        "url": "https://www.xiurenji.net/MiStar/"
+    }, {
+        "cid": 9,
+        "title": "FEILIN嗲囡囡",
+        "url": "https://www.xiurenji.net/FeiLin/"
+    }, {
+        "cid": 10,
+        "title": "MFStar模范学院",
+        "url": "https://www.xiurenji.net/MFStar/"
+    }, {
+        "cid": 11,
+        "title": "MiiTao蜜桃社",
+        "url": "https://www.xiurenji.net/MiiTao/"
+    }, {
+        "cid": 12,
+        "title": "YouWu尤物馆",
+        "url": "https://www.xiurenji.net/YouWu/"
+    }, {
+        "cid": 13,
+        "title": "LeYuan星乐园",
+        "url": "https://www.xiurenji.net/LeYuan/"
+    }, {
+        "cid": 14,
+        "title": "HuaYan花の颜",
+        "url": "https://www.xiurenji.net/HuaYan/"
+    }, {
+        "cid": 15,
+        "title": "WingS影私荟",
+        "url": "https://www.xiurenji.net/WingS/"
+    }, {
+        "cid": 16,
+        "title": "御女郎",
+        "url": "https://www.xiurenji.net/DKGirl/"
+    }, {
+        "cid": 17,
+        "title": "薄荷叶",
+        "url": "https://www.xiurenji.net/MintYe/"
+    }, {
+        "cid": 18,
+        "title": "尤蜜荟",
+        "url": "https://www.xiurenji.net/YouMi/"
+    }, {
+        "cid": 19,
+        "title": "糖果画报",
+        "url": "https://www.xiurenji.net/Candy/"
+    }, {
+        "cid": 20,
+        "title": "顽味生活",
+        "url": "https://www.xiurenji.net/Taste/"
+    }, {
+        "cid": 21,
+        "title": "优星馆",
+        "url": "https://www.xiurenji.net/Uxing/"
+    }, {
+        "cid": 22,
+        "title": "模特联盟",
+        "url": "https://www.xiurenji.net/MTMeng/"
+    }, {
+        "cid": 23,
+        "title": "猫萌榜",
+        "url": "https://www.xiurenji.net/Micat/"
+    }, {
+        "cid": 24,
+        "title": "画语界",
+        "url": "https://www.xiurenji.net/XiaoYu/"
+    }],
+    "flag": "noRating|preloadGallery",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".content img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "data-original",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "(.*).html",
+            "selector": "a"
+        },
+        "item": {
+            "selector": ".i_list.list_n2"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".meta-title"
+        },
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d{4}.\\d{2}.\\d{2})",
+            "selector": ".meta-post"
+        },
+        "category": {
+            "fun": "text",
+            "selector": ".postlist-imagenum"
+        }		
+    },
+	    "searchRule": {
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "(.*).html",
+            "selector": "h2 a"
+        },
+        "item": {
+            "selector": ".sousuo"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "h2 a"
+        }		
+    },
+    "indexUrl": "",
+    "galleryUrl": "https://www.xiurenji.net/{idCode:}{pageStr:_{page:0}}.html",
+    "searchUrl": "https://www.xiurenji.net/plus/search/index.asp?keyword={keyword:}&searchtype=title&p={page:1}",
+    "title": "秀人集"
+}
