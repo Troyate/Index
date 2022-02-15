@@ -1,0 +1,82 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "首页",
+            "url": "https://www.1y.is/page/{page:1}"
+        },
+        {
+            "cid": 2,
+            "title": "ROSI",
+            "url": "https://www.1y.is/category/rosi/page/{page:1}"
+        },
+        {
+            "cid": 3,
+            "title": "秀人",
+            "url": "https://www.1y.is/category/xiuren/page/{page:1}"
+        },
+        {
+            "cid": 4,
+            "title": "cosplay",
+            "url": "https://www.1y.is/category/cosplay/page/{page:1}"
+        },
+        {
+            "cid": 5,
+            "title": "sexy",
+            "url": "https://www.1y.is/category/sexy/page/{page:1}"
+        },
+        {
+            "cid": 6,
+            "title": "网红",
+            "url": "https://www.1y.is/category/net-cele/page/{page:1}"
+        }
+    ],
+    "disableHProxy": false,
+    "flag": "noRating|noTag|waterfallAsList|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".entry-content img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}{pageStr:/{page:1}}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".entry-header a:eq(1)"
+        },
+        "item": {
+            "selector": "article"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "h1"
+        }
+    },
+    "indexUrl": "",
+    "isGrid": false,
+    "loginUrl": "",
+    "searchUrl": "https://www.1y.is/{pageStr:page/{page:1}}?s={keyword:}",
+    "sid": 6,
+    "title": "1Y Beauties",
+    "versionCode": 0
+}

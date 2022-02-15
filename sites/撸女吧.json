@@ -1,0 +1,78 @@
+{
+    "categories": [{
+        "cid": 1,
+        "title": "首页",
+        "url": "https://www.tuaow.cc/{pageStr:page_{page:2}.html}"
+    }, {
+        "cid": 2,
+        "title": "撸女",
+        "url": "https://www.tuaow.cc/category-1{pageStr:_{page:2}}.html"
+    }, {
+        "cid": 3,
+        "title": "撸吧",
+        "url": "https://www.tuaow.cc/category-2{pageStr:_{page:2}}.html"
+    }, {
+        "cid": 4,
+        "title": "推图",
+        "url": "https://www.tuaow.cc/category-5{pageStr:_{page:2}}.html"
+    }, {
+        "cid": 5,
+        "title": "亚洲",
+        "url": "https://www.tuaow.cc/category-6{pageStr:_{page:2}}.html"
+    }, {
+        "cid": 6,
+        "title": "欧美",
+        "url": "https://www.tuaow.cc/category-8{pageStr:_{page:2}}.html"
+    }, {
+        "cid": 7,
+        "title": "日韩",
+        "url": "https://www.tuaow.cc/category-9{pageStr:_{page:2}}.html"
+    }],
+    "disableHProxy": false,
+    "flag": "noTag|noRating|waterfallAsList|waterfallAsGrid|preloadGallery",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".entry img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}{pageStr:?page={page:1}}",
+    "gid": 2,
+    "index": 55,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "h2 a"
+        },
+        "item": {
+            "selector": ".post-box"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "h2 a"
+        }
+    },
+    "indexUrl": "https://www.lunu.cc",
+    "isGrid": true,
+    "searchUrl": "https://www.lunu.cc/search.php?q\u003d{keyword:}\u0026{pageStr:page\u003d{page:2}}",
+    "sid": 201,
+    "title": "撸女吧",
+    "versionCode": 0
+}

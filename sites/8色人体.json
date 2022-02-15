@@ -1,0 +1,58 @@
+{
+    "disableHProxy": false,
+    "flag": "|waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".photos a:not([rel])"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "https://8se.me{idCode:}{pageStr:/{page:1}}.html",
+    "gid": 2,
+    "index": 0,
+    "indexRule": {
+        "category": {
+            "fun": "text",
+            "selector": "div:eq(1)"
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "datetime": {
+            "fun": "text",
+            "selector": "div:eq(3)"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "(.*).html",
+            "selector": "a:eq(0)"
+        },
+        "item": {
+            "selector": ".list .item"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "a:eq(3)"
+        }
+    },
+    "indexUrl": "https://8se.me/photos/{page:1}.html",
+    "isGrid": false,
+    "searchUrl": "https://8se.me/search/keyword-{keyword:}/{page:1}.html",
+    "sid": 104,
+    "title": "8色人体",
+    "versionCode": 0
+}

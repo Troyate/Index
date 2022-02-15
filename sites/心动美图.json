@@ -1,0 +1,61 @@
+    {
+        "cookie": "",
+        "flag": "noTag",
+        "galleryRule": {
+            "category": {
+                "fun": "html",
+                "selector": "div.main-meta > span > a"
+            },
+            "pictureRule": {
+                "item": {
+                    "selector": "div.spotlight"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "img"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "data-src",
+                    "selector": "this"
+                }
+            },
+            "tags": {
+                "fun": "html",
+                "selector": "div.simple-grid-tags-links > a[rel='tag']"
+            }
+        },
+        "galleryUrl": "{idCode:}{pageStr:/{page:1}/}",
+        "gid": 0,
+        "index": 0,
+        "indexRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "datetime": {
+                "fun": "text",
+                "selector": ".simple-grid-grid-post-date"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "h3 a"
+            },
+            "item": {
+                "selector": "div.simple-grid-grid-post"
+            },
+            "title": {
+                "fun": "html",
+                "selector": "h3 a"
+            }
+        },
+        "indexUrl": "https://www.zan63.com/{pageStr:page/{page:1}/}",
+        "isGrid": false,
+        "searchUrl": "https://www.zan63.com/{pageStr:page/{page:1}/}?s={keyword:}",
+        "sid": 54,
+        "title": "心动美图",
+        "versionCode": 0
+    }

@@ -1,0 +1,86 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "自拍",
+            "url": "http://29th.cc/forum.php?mod=forumdisplay&fid=42&orderby=dateline&filter=author&orderby=dateline&page={page:1}"
+        },
+        {
+            "cid": 2,
+            "title": "人体",
+            "url": "http://29th.cc/forum.php?mod=forumdisplay&fid=56&orderby=dateline&filter=author&orderby=dateline&page={page:1}"
+        },
+        {
+            "cid": 3,
+            "title": "街拍",
+            "url": "http://29th.cc/forum.php?mod=forumdisplay&fid=57&orderby=dateline&filter=author&orderby=dateline&page={page:1}"
+        },
+        {
+            "cid": 4,
+            "title": "欧美",
+            "url": "http://29th.cc/forum.php?mod=forumdisplay&fid=221&orderby=dateline&filter=author&orderby=dateline&page={page:1}"
+        },
+        {
+            "cid": 5,
+            "title": "AV美图",
+            "url": "http://29th.cc/forum.php?mod=forumdisplay&fid=239&orderby=dateline&filter=author&orderby=dateline&page={page:1}"
+        },
+        {
+            "cid": 6,
+            "title": "动图",
+            "url": "http://29th.cc/forum.php?mod=forumdisplay&fid=200&orderby=dateline&filter=author&orderby=dateline&page={page:1}"
+        },
+        {
+            "cid": 7,
+            "title": "动漫",
+            "url": "http://29th.cc/forum.php?mod=forumdisplay&fid=207&orderby=dateline&filter=author&orderby=dateline&page={page:1}"
+        }
+    ],
+    "disableHProxy": false,
+    "flag": "noCover|noRating|noTag|waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".zoom"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "file",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "file",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "http://29th.cc/{idCode:}",
+    "gid": 2,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "a"
+        },
+        "item": {
+            "selector": "#waterfall li"
+        },
+        "title": {
+            "fun": "attr",
+            "param": "title",
+            "selector": "a"
+        }
+    },
+    "indexUrl": "http://29th.cc",
+    "isGrid": false,
+    "sid": 73,
+    "title": "桃花族",
+    "versionCode": 0
+}

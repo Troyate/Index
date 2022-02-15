@@ -1,0 +1,48 @@
+{
+    "disableHProxy": false,
+    "flag": "noRating|preloadGallery|waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".entry-content img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "https://91ct.xyz{idCode:}",
+    "gid": 2,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": ".attachment-post-thumbnail"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".card__title a"
+        },
+        "item": {
+            "selector": "article"
+        },
+        "title": {
+            "fun": "html",
+            "selector": ".card__title a"
+        }
+    },
+    "indexUrl": "https://91ct.xyz/{pageStr:/page/{page:1}/}",
+    "isGrid": false,
+    "sid": 74,
+    "title": "草图网",
+    "versionCode": 0
+}

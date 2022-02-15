@@ -1,0 +1,55 @@
+ {	       
+    "disableHProxy": false,
+    "flag": "waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".entry_body img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+				"regex": "(.*)s.jpg",
+					"replacement": "$1.jpg",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+            "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": ".entry_image img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "h2 a"
+        },
+        "item": {
+            "selector": ".content.entry.grid_content.no_br"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "h2 a"
+        },
+            "datetime": {
+                "selector": ".entry_date",
+                "fun": "text"
+            }
+    },
+    "indexUrl": "https://tamachanlog.blog.2nt.com/blog-category-1{pageStr:-{page:0}}.html",
+    "isGrid": false,
+    "searchUrl": "",
+    "sid": 13,
+    "title": "無修正",
+    "versionCode": 0
+}
