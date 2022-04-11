@@ -1,0 +1,79 @@
+{
+    "categories": [{
+        "cid": 1,
+        "title": "Gravure",
+        "url": "https://everia.club/category/gravure/{pageStr:page/{page:1}/}"
+    },{
+        "cid": 2,
+        "title": "aidol",
+        "url": "https://everia.club/category/aidol/{pageStr:page/{page:1}/}"
+    }, {
+        "cid": 3,
+        "title": "magazine",
+        "url": "https://everia.club/category/magazine/{pageStr:page/{page:1}/}"
+    }, {
+        "cid": 4,
+        "title": "korea",
+        "url": "https://everia.club/category/korea/{pageStr:page/{page:1}/}"
+    }, {
+        "cid": 5,
+        "title": "thailand",
+        "url": "https://everia.club/category/thailand/{pageStr:page/{page:1}/}"
+    }, {
+        "cid": 6,
+        "title": "chinese",
+        "url": "https://everia.club/category/chinese/{pageStr:page/{page:1}/}"
+    }, {
+        "cid": 7,
+        "title": "cosplay",
+        "url": "https://everia.club/category/cosplay/{pageStr:page/{page:1}/}"
+    }],
+    "disableHProxy": false,
+    "flag": "noRating|noTag|waterfallAsList|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".wp-block-image img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".blog-entry-title a"
+        },
+        "item": {
+            "selector": "article.post"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".blog-entry-title"
+        }
+    },
+    "indexUrl": "https://everia.club/",
+    "isGrid": false,
+    "loginUrl": "",
+    "searchUrl": "https://everia.club/?s={keyword:}",
+    "sid": 6,
+    "title": "Everia.club",
+    "versionCode": 0
+}

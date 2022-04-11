@@ -1,0 +1,70 @@
+{
+    "categories": [{
+        "cid": 1,
+        "title": "自拍",
+        "url": "http://x77291.net/bbs/thread.php?fid\u003d18\u0026page\u003d{page:1}"
+    }, {
+        "cid": 2,
+        "title": "亚洲",
+        "url": "http://x77656.com/bbs/thread.php?fid\u003d57\u0026page\u003d{page:1}"
+    }, {
+        "cid": 3,
+        "title": "欧美",
+        "url": "http://x77291.net/bbs/thread.php?fid\u003d24\u0026page\u003d{page:1}"
+    }, {
+        "cid": 4,
+        "title": "写真",
+        "url": "http://x77656.com/bbs/thread.php?fid\u003d6\u0026page\u003d{page:1}"
+    }],
+    "disableHProxy": false,
+    "flag": "noCover",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": "#read_tpc img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "http://x77291.net/bbs/{idCode:}",
+    "gid": 2,
+    "index": 429,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "datetime": {
+            "fun": "text",
+            "selector": ".author p"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".subject_t"
+        },
+        "item": {
+            "selector": "#threadlist .tr3"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".subject_t"
+        }
+    },
+    "indexUrl": "http://x77656.com/",
+	"header": "Referer: http://x77656.com",
+    "isGrid": false,
+    "sid": 118,
+    "title": "小77论坛",
+    "versionCode": 2
+}

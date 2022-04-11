@@ -1,0 +1,49 @@
+{
+    "disableHProxy": false,
+    "flag": "|waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".gallery-detail-img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            }
+        }
+    },
+    "galleryUrl": "https://www.9iktb.com{idCode:}{pageStr:/{page:1}/}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "this"
+        },
+        "item": {
+            "selector": "a.gallery-item"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".gallery-title-1"
+        }
+    },
+    "indexUrl": "https://www.9iktb.com/galleryList/{page:1}/",
+    "isGrid": false,
+    "searchUrl": "https://www.9iktb.com/search/{page:1}?keyword={keyword:}",
+    "sid": 13,
+    "title": "就爱看图片",
+    "versionCode": 0
+}

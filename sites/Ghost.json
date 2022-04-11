@@ -1,0 +1,57 @@
+{
+    "disableHProxy": false,
+    "flag": "noRating|preloadGallery|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".kg-image"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        },
+		"tags": {
+            "fun": "text",
+            "selector": ".article-tag a"
+        }
+    },
+    "galleryUrl": "http://ryuryu.tw{idCode:}",
+    "gid": 3,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "datetime": {
+            "fun": "text",
+            "selector": "time"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".post-card-content-link"
+        },
+        "item": {
+            "selector": "article"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "h2"
+        }
+    },
+    "indexUrl": "http://ryuryu.tw/author/cypher/{pageStr:page/{page:1}/}",
+    "isGrid": true,
+    "searchUrl": "",
+    "sid": 32,
+    "title": "Ghost",
+    "versionCode": 0
+}

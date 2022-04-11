@@ -1,0 +1,63 @@
+{
+    "categories": [{
+        "cid": 1,
+        "title": "国内",
+        "url": "http://m.xiannvku.net/pic/list-id-1-{page:1}.html"
+    }, {
+        "cid": 2,
+        "title": "日韩",
+        "url": "http://m.xiannvku.net/pic/list-id-2-{page:1}.html"
+    }],
+    "disableHProxy": false,
+    "flag": "noRating|preloadGallery|waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".content_img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "http://m.xiannvku.net/pic/show-{idCode:}-{page:1}.html",
+    "gid": 5,
+    "index": 69,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "http://m.xiannvku.net/pic/show-(\\d+)-1.html",
+            "selector": ".p_title a"
+        },
+        "item": {
+            "selector": ".img li"
+        },
+        "tags": {
+            "fun": "html",
+            "selector": ".tags"
+        },
+        "title": {
+            "fun": "html",
+            "selector": ".p_title a"
+        }
+    },
+    "indexUrl": "http://m.xiannvku.net",
+    "isGrid": true,
+    "searchUrl": "",
+    "sid": 154,
+    "title": "仙女库",
+    "versionCode": 0
+}

@@ -1,0 +1,70 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "高清图片",
+            "url": "http://www.swl1288.com/category-2{pageStr:_{page:1}}.html"
+        },
+        {
+            "cid": 2,
+            "title": "美眉套图",
+            "url": "http://www.swl1288.com/category-3{pageStr:_{page:1}}.html"
+        },
+        {
+            "cid": 3,
+            "title": "明星图片",
+            "url": "http://www.swl1288.com/category-4{pageStr:_{page:1}}.html"
+        }
+    ],
+    "disableHProxy": false,
+    "flag": "noRating|preloadGallery|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": "#wanniuas img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}{pageStr:?page={page:1}}",
+    "gid": 3,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "data-original",
+            "selector": "img"
+        },
+        "datetime": {
+            "fun": "text",
+            "selector": ".fr"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "h3 a"
+        },
+        "item": {
+            "selector": ".col-6"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "h3 a"
+        }
+    },
+    "indexUrl": "http://www.swl1288.com",
+    "isGrid": true,
+    "searchUrl": "http://www.swl1288.com/search.php?q={keyword:}{pageStr:&page={page:1}}",
+    "sid": 32,
+    "title": "1288看图",
+    "versionCode": 0
+}

@@ -1,0 +1,56 @@
+{
+    "disableHProxy": false,
+    "flag": "noRating|preloadGallery|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".article-content img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "data-original",
+				"regex": "(https?://[^\"<>]*?\\.jpg)",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "data-original",
+				"regex": "(https?://[^\"<>]*?\\.jpg)",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "https://ons.ooo{idCode:}",
+    "gid": 3,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "style",
+			"regex": "(https?://[^\"<>]*?\\.jpg)",
+            "selector": ".imgbox"
+        },
+        "datetime": {
+            "fun": "text",
+            "selector": "time"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "h2 a"
+        },
+        "item": {
+            "selector": "article"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "h2 a"
+        }
+    },
+    "indexUrl": "https://ons.ooo{pageStr:/?page={page:1}}",
+    "isGrid": true,
+    "searchUrl": "https://ons.ooo/search/?{pageStr:page={page:1}&}s={keyword:}",
+    "sid": 32,
+    "title": "ONS漂亮MM图库",
+    "versionCode": 0
+}

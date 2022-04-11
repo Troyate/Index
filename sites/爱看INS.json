@@ -1,0 +1,53 @@
+{
+    "disableHProxy": false,
+    "flag": "noRating|preloadGallery|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".entry-content img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 3,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "datetime": {
+            "fun": "text",
+            "selector": ".entry-date"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "h2 a"
+        },
+        "item": {
+            "selector": "article"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "h2 a"
+        }
+    },
+    "indexUrl": "https://www.ikanins.com{pageStr:/page/{page:1}/}",
+    "isGrid": true,
+    "searchUrl": "https://www.ikanins.com/{pageStr:page/{page:1}/}?s={keyword:}",
+    "sid": 32,
+    "title": "爱看INS",
+    "versionCode": 0
+}
