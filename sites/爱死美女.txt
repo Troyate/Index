@@ -44,7 +44,7 @@
             }
         }
     },
-    "galleryUrl": "https://m.24tupian.org{idCode:}{pageStr:_{page:1}}.html",
+    "galleryUrl": "https://m.24tupian.org{idCode:}{pageStr:_{page:0}}.html",
     "gid": 1,
     "index": 0,
     "indexRule": {
