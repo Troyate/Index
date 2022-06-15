@@ -1,0 +1,78 @@
+{
+    "categories": [{
+        "cid": 1,
+        "title": "性感美女",
+        "url": "https://www.yeitu.com/meinv/xinggan/{pageStr:{page:1}.html}"
+    }, {
+        "cid": 2,
+        "title": "丝袜美腿",
+        "url": "https://www.yeitu.com/meinv/siwameitui/{pageStr:{page:1}.html}"
+    }, {
+        "cid": 3,
+        "title": "唯美写真",
+        "url": "https://www.yeitu.com/meinv/weimei/{pageStr:{page:1}.html}"
+    }, {
+        "cid": 4,
+        "title": "性感车模",
+        "url": "https://www.yeitu.com/meinv/chemo/{pageStr:{page:1}.html}"
+    }, {
+        "cid": 5,
+        "title": "网络美女",
+        "url": "https://www.yeitu.com/meinv/wangluomeinv/{pageStr:{page:1}.html}"
+    }, {
+        "cid": 6,
+        "title": "体育美女",
+        "url": "https://www.yeitu.com/meinv/tiyumeinv/{pageStr:{page:1}.html}"
+    }, {
+        "cid": 7,
+        "title": "人体艺术",
+        "url": "https://www.yeitu.com/meinv/rentiyishu/{pageStr:{page:1}.html}"
+    }],
+    "disableHProxy": false,
+    "flag": "noRating|noTag|waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".img_box img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}{pageStr:_{page:1}}.html",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "data-echo",
+            "selector": "img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "(.*).html",
+            "selector": "a"
+        },
+        "item": {
+            "selector": ".list-box li"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".list-title"
+        }
+    },
+    "indexUrl": "https://www.yeitu.com",
+    "isGrid": false,
+    "sid": 13,
+    "title": "亿图美女",
+    "versionCode": 0
+}

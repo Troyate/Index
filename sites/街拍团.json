@@ -1,0 +1,49 @@
+{
+    "disableHProxy": false,
+    "flag": "noRating|noTag|waterfallAsList|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".post-content img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": ".thumb img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": ".thumb a"
+        },
+        "item": {
+            "selector": "article.post"
+        },
+        "title": {
+            "fun": "attr",
+            "param": "title",
+            "selector": ".thumb a"
+        }
+    },
+    "indexUrl": "https://jiepaituan.cc/{pageStr:page/{page:1}/}",
+    "isGrid": false,
+    "sid": 16,
+    "title": "街拍团",
+    "versionCode": 0
+}

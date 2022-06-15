@@ -1,0 +1,88 @@
+{
+    "categories": [{
+        "cid": 1,
+        "title": "首页",
+        "url": "https://www.siwashi.com/{pageStr:page/{page:2}/}"
+    }, {
+        "cid": 2,
+        "title": "黑丝",
+        "url": "https://www.siwashi.com/heisi/{pageStr:page/{page:2}/}"
+    }, {
+        "cid": 3,
+        "title": "白丝",
+        "url": "https://www.siwashi.com/baisi/{pageStr:page/{page:2}/}"
+    }, {
+        "cid": 4,
+        "title": "肉丝",
+        "url": "https://www.siwashi.com/rosi/{pageStr:page/{page:2}/}"
+    }, {
+        "cid": 5,
+        "title": "cosplay",
+        "url": "https://www.siwashi.com/cosplay/{pageStr:page/{page:2}/}"
+    }, {
+        "cid": 6,
+        "title": "喵糖映画",
+        "url": "https://www.siwashi.com/mtyh/{pageStr:page/{page:2}/}"
+    }, {
+        "cid": 7,
+        "title": "森萝财团",
+        "url": "https://www.siwashi.com/senluocaituan/{pageStr:page/{page:2}/}"
+    }, {
+        "cid": 8,
+        "title": "兔玩映画",
+        "url": "https://www.siwashi.com/tuwan/{pageStr:page/{page:2}/}"
+    }],
+    "disableHProxy": false,
+    "flag": "noRating|preloadGallery|waterfallAsGrid|waterfallAsList",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": ".entry-content noscript img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}.html{pageStr:/{page:2}}",
+    "gid": 1,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "data-src",
+            "selector": ".lazyload"
+        },
+        "datetime": {
+            "fun": "text",
+            "selector": "time"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "(.*).html",
+            "selector": ".entry-title a"
+        },
+        "item": {
+            "selector": "article.post"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".entry-title a"
+        }
+    },
+    "indexUrl": "https://www.siwashi.com",
+    "isGrid": false,
+    "loginUrl": "https://www.siwashi.com/wp-login.php",
+    "searchUrl": "https://www.siwashi.com/{pageStr:page/{page:2}/}?s=%E7%A7%80%E4%BA%BA",
+    "sid": 5,
+    "title": "丝袜室",
+    "versionCode": 0
+}
